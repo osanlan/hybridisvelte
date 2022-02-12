@@ -1,0 +1,145 @@
+[
+  {
+    "tableName": "Yhteystiedot",
+    "id": "yhteystiedot",
+    "people": [
+      {
+        "title": "Email",
+        "name": "hallitus@hybridispeksi.fi",
+        "email": "hallitus@hybridispeksi.fi"
+      },
+      {
+        "title": "Tilinumero",
+        "name": "FI64 5711 1320 1361 76"
+      },
+      {
+        "title": "Y-tunnus",
+        "name": "2732017-8"
+      }
+    ]
+  },
+  {
+    "tableName": "Yhdistyksen hallitus",
+    "id": "yhdistys",
+    "people": [
+      {
+        "title": "Puheenjohtaja",
+        "name": "Saara Koskela"
+      },
+      {
+        "title": "Varapuheenjohtaja, improkerho- ja ympäristövastaava",
+        "name": "Veikka Savila"
+      },
+      {
+        "title": "Taloudenhoitaja, rekisteri- ja tietosuojavastaava, tilavastaava",
+        "name": "Oskari Läntinen"
+      },
+      {
+        "title": "Sihteeri, tiedottaja",
+        "name": "Laura-Tuulia Aarnio"
+      },
+      {
+        "title": "Interspeksi-, laite- ja liikuntavastaava",
+        "name": "Elias Ervelä"
+      },
+      {
+        "title": "Alumni-, interspeksi- ja somevastaava",
+        "name": "Ira Tulla"
+      },
+      {
+        "title": "Kulttuuri- ja tarvikevastaava, yhdenvertaisuus- ja hyvinvointivastaava",
+        "name": "Waltteri Hatulainen"
+      }
+    ]
+  },
+  {
+    "tableName": "Toimihenkilöt",
+    "id": "toimihenkilot",
+    "people": [
+      {
+        "title": "Bändin keikkavastaava",
+        "name": "Elias Ervelä / emerve@utu.fi",
+        "email": "emerve@utu.fi"
+      }
+    ]
+  },
+  {
+    "tableName": "Tuotantotiimi 2021",
+    "id": "tuotantotiimi",
+    "people": [
+      {
+        "title": "Tuotannon email",
+        "name": "tuottaja@hybridispeksi.fi",
+        "email": "tuottaja@hybridispeksi.fi"
+      },
+      {
+        "title": "Tuottajat",
+        "name": "Otso Lauerma ja Liisa Pösö"
+      },
+      {
+        "title": "Ohjaaja",
+        "name": "Anita Komulainen"
+      },
+      {
+        "title": "Apulaisohjaaja",
+        "name": "Olli Laaksoaho"
+      },
+      {
+        "title": "Pääkoreografi",
+        "name": "Janica Kilpi"
+      },
+      {
+        "title": "Apulaiskoreografi",
+        "name": "Venla Nurmi"
+      },
+      {
+        "title": "Kapellimestarit",
+        "name": "Elias Ervelä ja Lotta Laine"
+      },
+      {
+        "title": "Käsikirjoitusvastaava",
+        "name": "Kimmo Pyyhtiä"
+      },
+      {
+        "title": "Sanoitusvastaava",
+        "name": "Kimmo Pyyhtiä"
+      },
+      {
+        "title": "Lavastusvastaava",
+        "name": "Elina Honkavaara ja Justus Anttila"
+      },
+      {
+        "title": "Maskeerausvastaava",
+        "name": "Laura-Tuulia Aarnio"
+      },
+      {
+        "title": "Puvustusvastaava",
+        "name": "Kaisa Hakkarainen"
+      },
+      {
+        "title": "Grafiikkavastaava",
+        "name": "Aleksei Myller"
+      },
+      {
+        "title": "Varainhankintavastaava",
+        "name": "Paikka auki :D"
+      },
+      {
+        "title": "Markkinointivastaava",
+        "name": "Maisa Pikkarainen"
+      },
+      {
+        "title": "Kuvausvastaava",
+        "name": "Waltteri Hatulainen"
+      },
+      {
+        "title": "Virkistysvastaava",
+        "name": "Aurora Willman"
+      },
+      {
+        "title": "Tekniikkavastaava",
+        "name": "Paikka auki :D"
+      }
+    ]
+  }
+]
