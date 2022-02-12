@@ -6,6 +6,7 @@
   import Gigs from '../routes/gigs.svelte';
   import Yhdistys from '../routes/organization.svelte';
   import Nav from '../components/nav.svelte';
+  import Footer from '../components/footer.svelte';
 
   export let url = '';
 </script>
@@ -19,6 +20,7 @@
     <Route path="gigs" component={Gigs} />
     <Route path="info" component={Yhdistys} />
   </div>
+  <Footer />
 </Router>
 
 <style lang="scss">

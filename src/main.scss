@@ -3,7 +3,8 @@ $gold: gold;
 :global(body) {
   padding: 0px;
 }
-section {
-  margin-top: 5rem;
-  
+
+@font-face {
+  font-family: medieval;
+  src: url('/fonts/morris-roman.alternate-black.ttf');
 }
