@@ -26,17 +26,22 @@
 
 <nav>
   <div class="inner">
-    <div on:click={handleMobileIconClick} class={`mobile-icon${mobile ? ' active' : ''}`}>
-      <div class="middle-line"></div>
+    <div
+      on:click={handleMobileIconClick}
+      class={`mobile-icon${mobile ? ' active' : ''}`}
+    >
+      <div class="middle-line" />
+    </div>
+    <ul class={`navbar-lsit${mobile ? ' mobile' : ''}`}>
+      {#each navItems as item}
+        <li>
+          <a href={item.href}>{item.label}</a>
+        </li>
+      {/each}
+    </ul>
   </div>
-  <ul class={`navbar-lsit${mobile ? ' mobile' : ''}`}>
-    {#each navItems as item}
-    <li>
-      <a href={item.href}>{item.label}</a>
-    </li>
-    {/each}
-  </ul>
 </nav>
+
 <!-- 
 <section>
   <div class="nav" id="navi">
@@ -45,16 +50,15 @@
     <a href="/history" use:link>Aikaisemmat</a>
     <a href="/gigs" use:link>Keikat</a>
     <a href="/info" use:link>Yhdistys</a>
-    <!-- <MediaQuery query="(max-width: 600px)" let:matches>
+<MediaQuery query="(max-width: 600px)" let:matches>
       {#if matches}
         <div on:click={navFunc()}>
           <div>asdasd</div>
         </div>
       {/if}
-    </MediaQuery> -->
+    </MediaQuery>
   </div>
 </section> -->
-
 <style lang="scss">
   @use '../main.scss';
   section {
