@@ -1,3 +1,6 @@
+<svelte:head>
+  <title>INFERNO - HybridiSpeksi</title>
+</svelte:head>
 <section class="wrap">
   <div class="banner-space">
     <img src="/images/image.svg" alt="bannerlogo" />
@@ -19,10 +22,13 @@
       src="https://www.youtube.com/embed/uOijMBuS_lQ"
       title="YouTube video player"
       frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
     />
   </div>
+  <h1>Yhteistyössä</h1>
+  <p>Axel Health</p>
+  <p>Loimu</p>
+  <p>TEK</p>
 </section>
 <section class="dudes">
   <img
@@ -50,16 +56,14 @@
     style="top: 200vh"
   />
 </section>
-<section class="wrap">
-  <h1>Yhteistyössä</h1>
-</section>
 
 <style lang="scss">
   @use '../main.scss';
   .wrap {
     background-image: url('/images/bkg.jpg');
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
+
     // background-image: linear-gradient(
     //   to right,
     //   rgba(34, 34, 34, 0.9),

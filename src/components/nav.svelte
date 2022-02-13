@@ -1,23 +1,59 @@
 <script>
   import { link } from 'svelte-routing';
-  // const pages = [
-  //   { label: 'Home', href: '/' },
-  //   { label: 'Home2', href: '/about' },
-  //   { label: 'Home3', href: '/history' },
-  //   { label: 'Home4', href: '/gigs' },
-  //   { label: 'Home5', href: '/info' },
-  // ];
+  import MediaQuery from 'svelte-media-query';
+  import { onMount } from 'svelte';
+
+  let mobile = false;
+  const pages = [
+    { label: 'Inferno', href: '/' },
+    { label: 'about', href: '/about' },
+    { label: 'history', href: '/history' },
+    { label: 'gigs', href: '/gigs' },
+    { label: 'info', href: '/info' },
+  ];
+  const handleMobileIconClick = () => (mobile = !mobile);
+
+  const mediaQueryHandler = (e) => {
+    if (!e.matches) {
+      mobile = false;
+    }
+  };
+
+  onMount(() => {
+    const mediaListener = window.matchMedia('(max-width: 600px)');
+  });
 </script>
 
+<nav>
+  <div class="inner">
+    <div on:click={handleMobileIconClick} class={`mobile-icon${mobile ? ' active' : ''}`}>
+      <div class="middle-line"></div>
+  </div>
+  <ul class={`navbar-lsit${mobile ? ' mobile' : ''}`}>
+    {#each navItems as item}
+    <li>
+      <a href={item.href}>{item.label}</a>
+    </li>
+    {/each}
+  </ul>
+</nav>
+<!-- 
 <section>
-  <div class="nav">
+  <div class="nav" id="navi">
     <a href="/" use:link>Inferno</a>
     <a href="/about" use:link>Mikä speksi?</a>
     <a href="/history" use:link>Aikaisemmat</a>
     <a href="/gigs" use:link>Keikat</a>
     <a href="/info" use:link>Yhdistys</a>
+    <!-- <MediaQuery query="(max-width: 600px)" let:matches>
+      {#if matches}
+        <div on:click={navFunc()}>
+          <div>asdasd</div>
+        </div>
+      {/if}
+    </MediaQuery> -->
   </div>
-</section>
+</section> -->
 
 <style lang="scss">
   @use '../main.scss';
@@ -38,9 +74,9 @@
         rgba(34, 34, 34, 0.9)
       );
       display: flex;
+      flex-direction: row;
       align-items: center;
       justify-content: center;
-      // font-family: 'Orbitron', sans-serif;
       transition: all 0.3s;
     }
     a {

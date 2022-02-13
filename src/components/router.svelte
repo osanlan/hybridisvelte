@@ -15,10 +15,10 @@
   <Nav />
   <div>
     <Route path="/" component={Home} />
-    <Route path="about" component={About} />
-    <Route path="history" component={History} />
-    <Route path="gigs" component={Gigs} />
-    <Route path="info" component={Yhdistys} />
+    <Route path="/about" component={About} />
+    <Route path="/history" component={History} />
+    <Route path="/gigs" component={Gigs} />
+    <Route path="/info" component={Yhdistys} />
   </div>
   <Footer />
 </Router>
