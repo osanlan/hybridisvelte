@@ -33,7 +33,7 @@
       <div class="middle-line" />
     </div>
     <ul class={`navbar-lsit${mobile ? ' mobile' : ''}`}>
-      {#each navItems as item}
+      {#each pages as item}
         <li>
           <a href={item.href}>{item.label}</a>
         </li>
