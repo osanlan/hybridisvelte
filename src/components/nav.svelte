@@ -32,7 +32,7 @@
     >
       <div class="middle-line" />
     </div>
-    <ul class={`navbar-lsit${mobile ? ' mobile' : ''}`}>
+    <ul class={`navbar-list${mobile ? ' mobile' : ''}`}>
       {#each pages as item}
         <li>
           <a href={item.href}>{item.label}</a>
@@ -42,64 +42,136 @@
   </div>
 </nav>
 
-<!-- 
-<section>
-  <div class="nav" id="navi">
-    <a href="/" use:link>Inferno</a>
-    <a href="/about" use:link>Mikä speksi?</a>
-    <a href="/history" use:link>Aikaisemmat</a>
-    <a href="/gigs" use:link>Keikat</a>
-    <a href="/info" use:link>Yhdistys</a>
-<MediaQuery query="(max-width: 600px)" let:matches>
-      {#if matches}
-        <div on:click={navFunc()}>
-          <div>asdasd</div>
-        </div>
-      {/if}
-    </MediaQuery>
-  </div>
-</section> -->
 <style lang="scss">
   @use '../main.scss';
-  section {
-    background-color: main.$brown;
-    .nav {
-      z-index: 99;
-      position: fixed;
-      top: 0;
-      left: 0;
-      height: 5rem;
-      width: 100vw;
-      font-size: 2rem;
-      background-image: linear-gradient(
-        to right,
-        rgba(34, 34, 34, 0.9),
-        rgba(90, 58, 43, 0.9),
-        rgba(34, 34, 34, 0.9)
-      );
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      transition: all 0.3s;
+  nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    font-family: 'medieval';
+    height: 45px;
+  }
+  .inner {
+    max-width: 980px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  .mobile-icon {
+    width: 25px;
+    height: 14px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .mobile-icon:after,
+  .mobile-icon:before,
+  .middle-line {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    transition: all 0.4s;
+    transform-origin: center;
+  }
+
+  .mobile-icon:before,
+  .middle-line {
+    top: 0;
+  }
+
+  .mobile-icon:after,
+  .middle-line {
+    bottom: 0;
+  }
+
+  .mobile-icon:before {
+    width: 66%;
+  }
+
+  .mobile-icon:after {
+    width: 33%;
+  }
+  .middle-line {
+    margin: auto;
+  }
+
+  .mobile-icon:hover:before,
+  .mobile-icon:hover:after,
+  .mobile-icon.active:before,
+  .mobile-icon.active:after,
+  .mobile-icon.active .middle-line {
+    width: 100%;
+  }
+
+  .mobile-icon.active:before,
+  .mobile-icon.active:after {
+    top: 50%;
+    transform: rotate(-45deg);
+  }
+
+  .mobile-icon.active .middle-line {
+    transform: rotate(45deg);
+  }
+
+  .navbar-list {
+    display: none;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0 40px;
+  }
+
+  .navbar-list.mobile {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    display: block;
+    height: calc(100% - 45px);
+    bottom: 0;
+    left: 0;
+  }
+
+  .navbar-list li {
+    list-style-type: none;
+    position: relative;
+  }
+
+  .navbar-list li:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #424245;
+  }
+
+  .navbar-list a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    height: 45px;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+  }
+
+  @media only screen and (min-width: 767px) {
+    .mobile-icon {
+      display: none;
     }
-    a {
-      text-transform: uppercase;
-      list-style-type: none;
-      display: inline-block;
-      color: #e7e7e7;
-      text-align: center;
-      text-decoration: none;
-      border-radius: 5rem;
-      padding: 1rem 2rem;
-      margin: 0.5rem;
-      transition: all 0.3s;
-      letter-spacing: 1px;
-      font-size: 1.6rem;
-      &:hover {
-        background-color: #fdfdfd;
-        color: main.$brown;
-      }
+
+    .navbar-list {
+      display: flex;
+      padding: 0;
+    }
+
+    .navbar-list a {
+      display: inline-flex;
     }
   }
 </style>
