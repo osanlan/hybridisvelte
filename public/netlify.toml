@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/*"
-  to = "/speksi"
+  from = "/speksi"
+  to = "/calendar"
   status = 200
   force = true
