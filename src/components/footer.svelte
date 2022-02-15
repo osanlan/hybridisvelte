@@ -59,7 +59,7 @@
         />
       </svg></a
     >
-    <a href="kalenteri.html" aria-label="Kalenteri"
+    <a href="/calendar" aria-label="Kalenteri"
       ><svg
         class="icon icon__calendar"
         height="100"
@@ -95,9 +95,9 @@
     color: gold;
     background-image: $grad;
     .icon {
-      width: 5rem;
-      height: 5rem;
-      margin: 1rem;
+      width: 4.5rem;
+      height: 4.5rem;
+      margin: 0.7rem;
 
       fill: silver;
     }

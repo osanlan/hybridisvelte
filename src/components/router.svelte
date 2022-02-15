@@ -5,6 +5,7 @@
   import History from '../routes/history.svelte';
   import Gigs from '../routes/gigs.svelte';
   import Yhdistys from '../routes/organization.svelte';
+  import Calendar from '../routes/calendar.svelte';
   import Nav from '../components/nav.svelte';
   import Footer from '../components/footer.svelte';
 
@@ -19,6 +20,7 @@
     <Route path="/history" component={History} />
     <Route path="/gigs" component={Gigs} />
     <Route path="/info" component={Yhdistys} />
+    <Route path="/calendar" component={Calendar} />
   </div>
   <Footer />
 </Router>

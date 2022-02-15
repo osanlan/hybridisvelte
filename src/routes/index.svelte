@@ -14,7 +14,12 @@
     <p>19.3. klo 14.00</p>
     <p>19.3. klo 19.00</p>
     <p>20.3. klo 19.00</p>
-    <p>Lipunmyynnin löydät <a href="https://www.kide.app">Kide.Appistä</a></p>
+    <p>
+      Lipunmyynnin löydät <a
+        href="https://kide.app/community/d96376eb-02ff-4b1b-be75-a959f0fe0c42"
+        >Kide.Appistä</a
+      >
+    </p>
   </div>
   <section class="dudes">
     <div>
@@ -83,13 +88,7 @@
     background-image: url('/images/Kerberos_1280.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-
-    // background-image: linear-gradient(
-    //   to right,
-    //   rgba(34, 34, 34, 0.9),
-    //   rgba(90, 58, 43, 0.9),
-    //   rgba(34, 34, 34, 0.9)
-    // );
+    background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -97,33 +96,12 @@
 
     background-attachment: fixed;
 
-    h1 {
-      font-size: 4rem;
-      text-align: center;
-      color: rgb(255, 60, 0);
-      text-decoration: underline;
-      text-shadow: rgb(201, 155, 57) 2px 2px;
-    }
-    h2 {
-      font-size: 3rem;
-      text-align: center;
-      color: rgb(201, 155, 57);
-      text-shadow: red 2px 2px;
-    }
-    p {
-      font-size: 2rem;
-      text-align: center;
-      color: gold;
-    }
     .paral {
       background-color: rgba(39, 20, 3, 0.4);
       // background-blend-mode: darken;
       width: 100%;
       display: flex;
       flex-direction: column;
-    }
-    .empty {
-      height: 500px;
     }
     .banner-space {
       h1 {

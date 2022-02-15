@@ -1,23 +1,15 @@
 <script>
-  import { link } from 'svelte-routing';
-  import MediaQuery from 'svelte-media-query';
   import { onMount } from 'svelte';
 
   let mobile = false;
   const pages = [
     { label: 'Inferno', href: '/' },
-    { label: 'about', href: '/about' },
-    { label: 'history', href: '/history' },
-    { label: 'gigs', href: '/gigs' },
-    { label: 'info', href: '/info' },
+    { label: 'Speksi', href: '/about' },
+    // { label: 'history', href: '/history' },
+    // { label: 'gigs', href: '/gigs' },
+    { label: 'Yhdistys', href: '/info' },
   ];
   const handleMobileIconClick = () => (mobile = !mobile);
-
-  const mediaQueryHandler = (e) => {
-    if (!e.matches) {
-      mobile = false;
-    }
-  };
 
   onMount(() => {
     const mediaListener = window.matchMedia('(max-width: 600px)');

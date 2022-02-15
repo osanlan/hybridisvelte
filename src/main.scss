@@ -8,3 +8,23 @@ $gold: gold;
   font-family: medieval;
   src: url('/fonts/morris-roman.alternate-black.ttf');
 }
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: rgb(255, 60, 0);
+  text-decoration: underline;
+  text-shadow: rgb(201, 155, 57) 2px 2px;
+}
+h2 {
+  font-size: 3rem;
+  text-align: center;
+  color: rgb(201, 155, 57);
+  text-shadow: red 2px 2px;
+}
+p {
+  font-size: 2rem;
+  text-align: center;
+  color: gold;
+}
+
