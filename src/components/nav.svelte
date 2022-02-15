@@ -4,10 +4,10 @@
   let mobile = false;
   const pages = [
     { label: 'Inferno', href: '/' },
-    { label: 'Speksi', href: '/about' },
+    { label: 'Speksi', href: '/speksi' },
     // { label: 'history', href: '/history' },
     // { label: 'gigs', href: '/gigs' },
-    { label: 'Yhdistys', href: '/info' },
+    { label: 'Yhdistys', href: '/yhdistys' },
   ];
   const handleMobileIconClick = () => (mobile = !mobile);
 
