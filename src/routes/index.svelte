@@ -13,7 +13,7 @@
     <p>18.3. klo 19.00</p>
     <p>19.3. klo 14.00</p>
     <p>19.3. klo 19.00</p>
-    <p>20.3. klo 19.00</p>
+    <p>20.3. klo 14.00</p>
     <p>
       Lipunmyynnin löydät <a
         href="https://kide.app/community/d96376eb-02ff-4b1b-be75-a959f0fe0c42"
@@ -77,9 +77,9 @@
     </div>
   </div>
   <h1>Yhteistyössä</h1>
-  <p>Axel Health</p>
-  <p>Loimu</p>
-  <p>TEK</p>
+  <p>Axel Health Oy</p>
+  <p>Tekniikan akateemiset TEK</p>
+  <p>Tmi Sampsa Vuorela</p>
 </section>
 
 <style lang="scss">
