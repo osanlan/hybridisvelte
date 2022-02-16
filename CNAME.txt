@@ -1,0 +1,1 @@
+hybridispeksi.fi ALIAS apex-loadbalancer.netlify.com
