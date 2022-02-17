@@ -7,7 +7,7 @@
     <h1>kunnes Kadotus meidät korjaa</h1>
   </div>
   <div class="paral">
-    <h2>Vuoden 2022 HybridiSpeksi on täällä!</h2>
+    <h2>Vuoden 2022<br /> Hybridi&shy;Speksi <br />on täällä!</h2>
     <p>Ensi-ilta 16.3. klo 19.00</p>
     <p>17.3. klo 19.00</p>
     <p>18.3. klo 19.00</p>
@@ -89,7 +89,7 @@
   <div class="logos">
     <div class="logo">
       <a href="https://tek.fi">
-        <img alt="tek" class="logo" src="/images/logos/tek.png" />
+        <img alt="tek" src="/images/logos/tek.png" />
       </a>
     </div>
     <div class="logo sampsa">
@@ -97,12 +97,12 @@
     </div>
     <div class="logo">
       <a href="https://www.punanaamio.fi/">
-        <img alt="punanaamio" class="logo" src="/images/logos/punanaamio.png" />
+        <img alt="punanaamio" src="/images/logos/punanaamio.png" />
       </a>
     </div>
     <div class="logo">
       <a href="https://www.iqvia.com/">
-        <img alt="iqvia" class="logo" src="/images/logos/iqvia.png" />
+        <img src="/images/logos/iqvia.png" alt="iqvia" />
       </a>
     </div>
     <div class="logo">
@@ -115,53 +115,21 @@
 
 <style lang="scss">
   @use '../main.scss';
-
-  .logos {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    .logo {
-      margin: 20px;
-      margin-bottom: 30px;
-      &.sampsa {
-        a {
-          color: yellow;
-        }
-        font-size: 2rem;
-        font-family: 'Courier New', Courier, monospace;
-        text-decoration: none;
-      }
-    }
-    @media only screen and (max-width: 767px) {
-      flex-direction: column;
-      .logo {
-        max-width: 95vw;
-        margin: 20px 0;
-      }
-
-      // max-width: 95vw;
-    }
-  }
   .wrap {
     background-image: url('/images/Kerberos_1280.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: medieval;
-
+    background-color: black !important;
     background-attachment: fixed;
-
     .paral {
       background-color: rgba(39, 20, 3, 0.4);
-      // background-blend-mode: darken;
       width: 100%;
       display: flex;
       flex-direction: column;
+      p {
+        color: gold;
+        font-size: 2rem;
+      }
     }
     .banner-space {
       h1 {

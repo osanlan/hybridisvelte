@@ -1,0 +1,9 @@
+﻿# humanstxt.org/
+
+# TEAM
+	Oskari Läntinen -- developer -- oskari.lantinen [at] outlook.com
+
+# THANKS
+	Ellen Ilivitzky -- Graphical assets for 2022 production
+	HybridiSpeksi crew
+    

@@ -14,13 +14,11 @@
 
 <Router {url}>
   <Nav />
-  <div>
-    <Route path="/"><Home /></Route>
-    <Route path="/speksi"><About /></Route>
-    <!-- <Route path="/history" component={History} /> -->
-    <!-- <Route path="/gigs" component={Gigs} /> -->
-    <Route path="/yhdistys"><Organization /></Route>
-    <Route path="/calendar"><Calendar /></Route>
-  </div>
+  <Route path="/"><Home /></Route>
+  <Route path="/speksi"><About /></Route>
+  <!-- <Route path="/history" component={History} /> -->
+  <!-- <Route path="/gigs" component={Gigs} /> -->
+  <Route path="/yhdistys"><Organization /></Route>
+  <Route path="/calendar"><Calendar /></Route>
   <Footer />
 </Router>

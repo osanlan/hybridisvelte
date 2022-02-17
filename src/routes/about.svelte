@@ -1,11 +1,10 @@
 <svelte:head>
   <title>Mikä speksi? - HybridiSpeksi</title>
 </svelte:head>
-<main class="wrap">
+<section class="wrap">
   <div class="text">
-    <h1>HybridiSpeksi</h1>
-    <div class="logo">
-      <img alt="logo" src="/images/android-chrome-512x512.png" />
+    <div class="mainlogo">
+      <img alt="logo" src="/images/logo.png" />
     </div>
     <p>
       HybridiSpeksi on Turun yliopiston luonnontieteiden ja tekniikan
@@ -47,51 +46,52 @@
       kuulolla!
     </p>
   </div>
-</main>
+  <div class="logos">
+    <div class="logo">
+      <a href="https://spex.abo.fi/">
+        <img src="/images/speksilogot/abospex.svg" alt="abo logo" />
+      </a>
+    </div>
+    <div class="logo">
+      <a href="https://iospeksi.fi/">
+        <img src="/images/speksilogot/io.svg" alt="io logo" />
+      </a>
+    </div>
+    <div class="logo">
+      <a href="https://lex.fi/toiminta/spex">
+        <img src="/images/speksilogot/lex.svg" alt="lex logo" />
+      </a>
+    </div>
+    <div class="logo">
+      <a href="http://tlksspeksi.fi/">
+        <img src="/images/speksilogot/tlks.svg" alt="tlks logo" />
+      </a>
+    </div>
+    <div class="logo">
+      <a href="http://speksi.tuky.fi/">
+        <img src="/images/speksilogot/tuky.svg" alt="tuky logo" />
+      </a>
+    </div>
+    <div class="logo">
+      <a href="http://turkulainenhumanistispeksi.fi/">
+        <img src="/images/speksilogot/humanisti.svg" alt="ths logo" />
+      </a>
+    </div>
+  </div>
+</section>
 
 <style lang="scss">
   @use '../main.scss';
-  .wrap {
-    background-color: rgba(90, 47, 10, 0.692);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: medieval;
-    margin: auto;
-    background-attachment: fixed;
-    .text {
-      padding-top: 4rem;
-      max-width: 60vw;
-    }
-  }
-  .logo {
+  .mainlogo {
     margin: auto;
     display: flex;
     flex-direction: column;
+    width: 450px;
   }
-  img {
-    // width: 90vw;
-    margin: auto;
-  }
-  h2 {
-    text-transform: uppercase;
-    font-size: 2.5rem;
-  }
+
   @media only screen and (max-width: 767px) {
-    p {
-      font-size: 1.5rem;
-    }
-    h1 {
-      font-size: 3.7rem;
-    }
-    .wrap {
-      .text {
-        max-width: 95vw;
-      }
-    }
-    img {
-      width: 90vw;
+    .mainlogo {
+      max-width: 50vw;
     }
   }
 </style>
