@@ -8,12 +8,26 @@
   </div>
   <div class="paral">
     <h2>Vuoden 2022<br /> Hybridi&shy;Speksi <br />on täällä!</h2>
-    <p>Ensi-ilta 16.3. klo 19.00</p>
-    <p>17.3. klo 19.00</p>
-    <p>18.3. klo 19.00</p>
-    <p>19.3. klo 14.00</p>
-    <p>19.3. klo 19.00</p>
-    <p>20.3. klo 14.00</p>
+    <p>
+      Ensi-ilta <span style="text-decoration: line-through"
+        >16.3. klo 19.00</span
+      > - Loppuunmyyty
+    </p>
+    <p>
+      <span style="text-decoration: line-through">17.3. klo 19.00</span> - Loppuunmyyty
+    </p>
+    <p>
+      <span style="text-decoration: line-through">18.3. klo 19.00</span> - Loppuunmyyty
+    </p>
+    <p>
+      <span style="text-decoration: line-through">19.3. klo 14.00</span> - Loppuunmyyty
+    </p>
+    <p>
+      <span style="text-decoration: line-through">19.3. klo 19.00</span> - Loppuunmyyty
+    </p>
+    <p>
+      <span style="text-decoration: line-through">20.3. klo 14.00</span> - Loppuunmyyty
+    </p>
     <p>
       Lipunmyynnin löydät <a
         href="https://kide.app/community/d96376eb-02ff-4b1b-be75-a959f0fe0c42"
