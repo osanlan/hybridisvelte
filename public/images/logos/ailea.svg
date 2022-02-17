@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="208px"
+   height="69px"
+   viewBox="0 0 208.02602 69.595993"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="ailea_white_logo_no_bg.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="352.98461"
+     inkscape:cy="126.22813"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Taso 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-1.2911889,-58.008084)">
+    <path
+       style="fill:#ffffff;stroke-width:0.25400001;fill-opacity:1"
+       d="m 1.2911889,127.34893 c 0,-0.23806 19.3691721,-65.491066 20.2244451,-68.134346 l 0.39038,-1.2065 h 1.478849 1.478849 l 0.515141,1.7145 c 3.241656,10.78889 20.108336,67.585216 20.108336,67.712176 0,0.0931 -0.542925,0.16767 -1.2065,0.16565 l -1.2065,-0.004 -9.779,-33.507856 c -5.37845,-18.42931 -9.847419,-33.42953 -9.93104,-33.33381 -0.08362,0.0957 -4.536266,15.17591 -9.894758,33.51154 L 3.7266719,127.60378 h -1.217741 c -0.669758,0 -1.217742,-0.11482 -1.217742,-0.25515 z M 59.965192,92.806084 v -34.798 h 1.27 1.27 v 34.798 34.797996 h -1.27 -1.27 z m 25.146,0 v -34.798 h 1.27 1.27 v 33.655 33.654996 h 13.207998 13.208 v 1.143 1.143 h -14.477998 -14.478 z m 42.163998,0 v -34.798 h 14.859 14.859 v 1.143 1.143 h -13.589 -13.589 v 14.732 14.732 h 11.684 11.684 v 1.143 1.143 h -11.684 -11.684 v 16.763996 16.764 h 13.97 13.97 v 1.016 1.016 h -15.24 -15.24 z m 37.84601,34.542846 c 0,-0.23806 19.36916,-65.491066 20.22444,-68.134346 l 0.39038,-1.2065 h 1.47885 1.47885 l 0.51514,1.7145 c 3.24166,10.78889 20.10834,67.585216 20.10834,67.712176 0,0.0931 -0.54293,0.16767 -1.2065,0.16565 l -1.2065,-0.004 -9.779,-33.507866 c -5.37845,-18.4293 -9.84743,-33.42952 -9.93105,-33.3338 -0.0836,0.0957 -4.53626,15.17591 -9.89476,33.51154 l -9.74271,33.337496 h -1.21775 c -0.66975,0 -1.21773,-0.11482 -1.21773,-0.25515 z"
+       id="path3739"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="106"
+       inkscape:export-ydpi="106" />
+  </g>
+</svg>
