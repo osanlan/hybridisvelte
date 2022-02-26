@@ -11,22 +11,22 @@
     <p>
       Ensi-ilta <span style="text-decoration: line-through"
         >16.3. klo 19.00</span
-      > - Loppuunmyyty
+      > - Loppuunmyyty!
     </p>
     <p>
-      <span style="text-decoration: line-through">17.3. klo 19.00</span> - Loppuunmyyty
+      <span>17.3. klo 19.00</span> - Lisäliput myynnissä!
     </p>
     <p>
-      <span style="text-decoration: line-through">18.3. klo 19.00</span> - Loppuunmyyty
+      <span>18.3. klo 19.00</span> - Lisäliput myynnissä!
     </p>
     <p>
-      <span style="text-decoration: line-through">19.3. klo 14.00</span> - Loppuunmyyty
+      <span>19.3. klo 14.00</span> - Lisäliput myynnissä!
     </p>
     <p>
-      <span style="text-decoration: line-through">19.3. klo 19.00</span> - Loppuunmyyty
+      <span>19.3. klo 19.00</span> - Lisäliput myynnissä!
     </p>
     <p>
-      <span style="text-decoration: line-through">20.3. klo 14.00</span> - Loppuunmyyty
+      <span>20.3. klo 14.00</span> - Lisäliput myynnissä!
     </p>
     <p>
       Lipunmyynnin löydät <a
