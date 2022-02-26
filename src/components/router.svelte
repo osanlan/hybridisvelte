@@ -8,6 +8,7 @@
   import Calendar from '../routes/calendar.svelte';
   import Nav from '../components/nav.svelte';
   import Footer from '../components/footer.svelte';
+  import Songs from '../routes/songs.svelte';
 
   export let url = '';
 </script>
@@ -20,5 +21,6 @@
   <!-- <Route path="/gigs" component={Gigs} /> -->
   <Route path="/yhdistys"><Organization /></Route>
   <Route path="/calendar"><Calendar /></Route>
+  <Route path="/biisit"><Songs /></Route>
   <Footer />
 </Router>
