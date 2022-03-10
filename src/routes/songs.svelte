@@ -1,7 +1,10 @@
 <script>
-  import songs from '../assets/songs.json';
-
-  let selectedSong = songs[0];
+  import song_dic from '../assets/songs.json';
+  let song_keys = Object.keys(song_dic);
+  let song_values = Object.values(song_dic);
+  let song_entries = Object.entries(song_dic);
+  
+  let selectedSong = song_values[0];
   let selectedYear;
 </script>
 
@@ -25,14 +28,14 @@
 
     <select bind:value={selectedSong}>
       <option value="">Valitse biisi</option>
-      {#each songs as song}
-        {#if song.speksi === selectedYear}
-          <option value={song}>{song.title}</option>
+      {#each song_entries as [key, value]}
+        {#if value.year === selectedYear}
+        <option value="{value}">{value.title}</option>
         {/if}
       {/each}
     </select>
   </form>
-  <!-- {selectedSong} -->
+
   {#if selectedSong}
     <div class="song" id={selectedSong.id}>
       <div class="name">{selectedSong.title}</div>
