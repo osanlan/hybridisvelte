@@ -41,6 +41,9 @@
       <div class="name">{selectedSong.title}</div>
       <div class="origin">{selectedSong.origin}</div>
       {#each selectedSong.lines as line}
+        {#if (line.length < 1)}
+        <div class="verse"></div>
+        {/if}
         <p>{line}</p>
       {/each}
     </div>
@@ -66,12 +69,11 @@
       font-style: italic;
     }
 
-    // .verse {
-    //   display: flex;
-    //   flex-direction: column;
-    //   margin: 10px;
+    .verse {
+      height: 10px;
+    }
     p {
-      margin: 3px;
+      margin: 4px;
     }
     // }
     display: flex;
