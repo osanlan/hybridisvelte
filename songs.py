@@ -2,10 +2,11 @@ import json
 
 new_songs = {}
 
-with open ('raw_songs.txt', 'r', encoding="utf-8") as txt_file:
+with open ('new 1.txt', 'r', encoding="utf-8") as txt_file:
     lines = txt_file.readlines()
 
 for line in lines:
+    # print(line)
     if ('title:' in line):
         title = line.split(":")[1][1:].replace("\n", "")
         new_songs[title] = {"title": title}
@@ -19,8 +20,8 @@ for line in lines:
     else:
         new_songs[title]['lines'].append(line.replace("\n", ""))
 
-
 with open('./src/assets/songs.json', encoding="utf-8") as json_file:
+    # print(json_file)
     data = json.load(json_file)
 
 for key in new_songs:
