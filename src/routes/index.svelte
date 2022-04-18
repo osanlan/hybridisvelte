@@ -2,37 +2,17 @@
   <title>INFERNO - HybridiSpeksi</title>
 </svelte:head>
 <section class="wrap">
-  <div class="banner-space">
+  <!-- <div class="banner-space">
     <img src="/images/image.svg" alt="bannerlogo" />
     <h1>kunnes Kadotus meidät korjaa</h1>
-  </div>
+  </div> -->
   <div class="paral">
-    <h2>Vuoden 2022<br /> Hybridi&shy;Speksi <br />on täällä!</h2>
-    <p>
-      Ensi-ilta <span style="text-decoration: line-through"
-        >16.3. klo 19.00</span
-      > - Loppuunmyyty!
+    <h1>Vuoden 2022<br /> näytökset ovat <br />tältä erää naputeltu!</h1>
+    <p>Mutta ei hätää!</p>
+    <p> Haku ensivuoden produktion tuotantotiimin on auki!!</p>
+    <p>Linkki <a href="https://forms.gle/9Hjvv5moQZKxvmoB7">tuottajahakuun</a> (päättyy 17.4. 23.59)
     </p>
-    <p>
-      <span style="text-decoration: line-through">17.3. klo 19.00</span> - Loppuunmyyty!
-    </p>
-    <p>
-      <span style="text-decoration: line-through">18.3. klo 19.00</span> - Loppuunmyyty!
-    </p>
-    <p>
-      <span style="text-decoration: line-through">19.3. klo 14.00</span> - Loppuunmyyty!
-    </p>
-    <p>
-      <span style="text-decoration: line-through">19.3. klo 19.00</span> - Loppuunmyyty!
-    </p>
-    <p>
-      <span style="text-decoration: line-through">20.3. klo 14.00</span> - Loppuunmyyty!
-    </p>
-    <p>
-      Lipunmyynnin löydät <a
-        href="https://kide.app/community/d96376eb-02ff-4b1b-be75-a959f0fe0c42"
-        >Kide.Appistä</a
-      >
+    <p>Linkki <a href="https://forms.gle/KoD13URW2HHYJznY6">tuotantotiimin</a> hakuun (päättyy 30.4. 23.59)
     </p>
   </div>
   <section class="dudes">
@@ -78,7 +58,7 @@
     </div>
   </section>
   <div class="paral">
-    <p>Ja jumaskekka trailerikin pamahti eetteeriin !?!?</p>
+    <p>Infernon trailerin pääset tsiigailemaan tästä!</p>
     <div class="video">
       <a
         href="https://www.youtube.com/watch?v=uOijMBuS_lQ"
@@ -143,6 +123,10 @@
       p {
         color: gold;
         font-size: 2rem;
+        a {
+          color: gold;
+          text-decoration: underline;
+        }
       }
     }
     .banner-space {
