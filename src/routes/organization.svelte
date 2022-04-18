@@ -21,6 +21,15 @@
       </div>
     {/each}
   </div>
+  <div id="rules" class="flex flex_column">
+    <a href="../assets/HybridiSpeksi ry säännöt.pdf">Yhdistyksen säännöt</a>
+    <a href="../assets/HybridiSpeksi ry rekisteriseloste.pdf"
+      >Rekisteriseloste</a
+    >
+    <a href="../assets/HybridiSpeksi ry merkkiohjesääntö.pdf"
+      >Merkkiohjesääntö</a
+    >
+  </div>
 </section>
 
 <style lang="scss">
