@@ -31,7 +31,7 @@ section.wrap {
     text-transform: uppercase;
   }
   h3 {
-    text-transform: capitalize;
+    // text-transform: capitalize;
     font-size: 2rem;
     color: gold;
   }
@@ -39,6 +39,11 @@ section.wrap {
     font-size: 1.5rem;
     text-align: center;
     color: rgb(27, 27, 27);
+  }
+  a {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #7c2e00;
   }
 
   .text {
@@ -84,5 +89,11 @@ section.wrap {
     padding: 0;
   
   }
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 

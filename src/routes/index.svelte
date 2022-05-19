@@ -9,10 +9,10 @@
   <div class="paral">
     <h1>Vuoden 2022<br /> näytökset ovat <br />tältä erää naputeltu!</h1>
     <p>Mutta ei hätää!</p>
-    <p> Haku ensivuoden produktion tuotantotiimin on auki!!</p>
-    <p>Linkki <a href="https://forms.gle/9Hjvv5moQZKxvmoB7">tuottajahakuun</a> (päättyy 17.4. 23.59)
-    </p>
-    <p>Linkki <a href="https://forms.gle/KoD13URW2HHYJznY6">tuotantotiimin</a> hakuun (päättyy 30.4. 23.59)
+    <p> Produktioon 2023 on tuotantotiimin haku auki!! <br>
+    Jos kiinnostuit niin laitathan viestiä uusille tuottajillemme:</p>
+    <p>
+      <a href="mailto:tuottaja@hybridispeksi.fi">tuottaja@hybridispeksi.fi</a>
     </p>
   </div>
   <section class="dudes">

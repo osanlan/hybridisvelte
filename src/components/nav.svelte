@@ -6,7 +6,7 @@
     { label: 'Inferno', href: '/' },
     { label: 'Speksi', href: '/speksi' },
     // { label: 'history', href: '/history' },
-    // { label: 'gigs', href: '/gigs' },
+    { label: 'Keikat', href: '/gigs' },
     { label: 'Yhdistys', href: '/yhdistys' },
   ];
   const handleMobileIconClick = () => (mobile = !mobile);
