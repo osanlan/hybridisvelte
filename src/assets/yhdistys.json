@@ -19,7 +19,7 @@
     ]
   },
   {
-    "tableName": "Yhdistyksen hallitus 2021-22",
+    "tableName": "Yhdistyksen hallitus 2022-23",
     "id": "yhdistys",
     "people": [
       {
@@ -55,17 +55,6 @@
       {
         "title": "Vilhelmiina Virtanen",
         "name": "Olli Laaksoaho"
-      }
-    ]
-  },
-  {
-    "tableName": "Toimihenkilöt",
-    "id": "toimihenkilot",
-    "people": [
-      {
-        "title": "Keikkavastaava",
-        "name": "Elias Ervelä / emerve@utu.fi",
-        "email": "emerve@utu.fi"
       }
     ]
   },
