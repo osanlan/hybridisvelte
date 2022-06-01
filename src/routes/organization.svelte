@@ -14,7 +14,7 @@
         <h3>{segment.tableName}</h3>
         {#each segment.people as person}
           <div class="row">
-            <p class="left">{person.title}:</p>
+            <p class="left">{person.title}{#if (segment.id != "yhdenvertaiset")}:{/if}</p>
             <p class="right">{person.name}</p>
           </div>
         {/each}
