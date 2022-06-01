@@ -8,6 +8,12 @@ $gold: gold;
   font-family: medieval;
   src: url('/fonts/morris-roman.alternate-black.ttf');
 }
+html {
+  body {
+    background-color: aquamarine!important;
+  }
+}
+
 section.wrap {
   background-color: rgba(90, 47, 10, 0.692);
   display: flex;
@@ -15,7 +21,9 @@ section.wrap {
   justify-content: center;
   align-items: center;
   font-family: medieval;
-  margin: auto;
+  margin: auto 0;
+  min-height: 100vh;
+
   h1 {
     font-size: 4rem;
     text-align: center;

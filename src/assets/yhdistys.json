@@ -19,7 +19,7 @@
     ]
   },
   {
-    "tableName": "Yhdistyksen hallitus",
+    "tableName": "Yhdistyksen hallitus 2021-22",
     "id": "yhdistys",
     "people": [
       {
@@ -64,7 +64,7 @@
     ]
   },
   {
-    "tableName": "Tuotantotiimi 2021",
+    "tableName": "Tuotantotiimi 2022",
     "id": "tuotantotiimi",
     "people": [
       {

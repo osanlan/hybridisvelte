@@ -11,7 +11,7 @@
     <h1>Yhdistys ja toimihenkilöt</h1>
     {#each segments as segment}
       <div class="segment">
-        <h3>{segment.id}</h3>
+        <h3>{segment.tableName}</h3>
         {#each segment.people as person}
           <div class="row">
             <p class="left">{person.title}:</p>
@@ -23,18 +23,19 @@
   </div>
   <div id="rules" class="flex flex_column">
     <a href="../assets/HybridiSpeksi ry säännöt.pdf">Yhdistyksen säännöt</a>
-    <a href="../assets/HybridiSpeksi ry rekisteriseloste.pdf"
-      >Rekisteriseloste</a
-    >
-    <a href="../assets/HybridiSpeksi ry merkkiohjesääntö.pdf"
-      >Merkkiohjesääntö</a
-    >
+    <a href="../assets/HybridiSpeksi ry rekisteriseloste.pdf">Rekisteriseloste</a>
+    <a href="../assets/HybridiSpeksi ry merkkiohjesääntö.pdf">Merkkiohjesääntö</a>
   </div>
 </section>
 
 <style lang="scss">
   @use '../main.scss';
 
+  #rules {
+    a {
+      padding: 10px;
+    }
+  }
   .segment {
     display: flex;
     flex-direction: column;

@@ -94,6 +94,9 @@
     align-items: center;
     color: gold;
     background-image: $grad;
+    margin-top: auto;
+    bottom: 0;
+    
     .icon {
       width: 4.5rem;
       height: 4.5rem;
