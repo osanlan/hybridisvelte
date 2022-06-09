@@ -23,7 +23,7 @@
     "resources": [
       {
         "title": "Käsiohjelma",
-        "url": "img/db/2015/hali_kasiohjelma.pdf"
+        "url": "images/db/2015/hali_kasiohjelma.pdf"
       },
       {
         "title": "Teaser traileri",
@@ -33,7 +33,12 @@
         "title": "Ensi-iltatraileri",
         "url": "https://www.youtube.com/watch?v=XcAjZfRsYRo"
       }
-    ]
+    ],
+    "colors": {
+      "bg1": "#ff2c79",
+      "bg2": "#faff00",
+      "button": "#68c306"
+    }
   },
   {
     "id": "bratvakontra",
@@ -74,7 +79,12 @@
         "title": "Traileri",
         "url": "https://www.youtube.com/watch?v=d3wmLlok1aM"
       }
-    ]
+    ],
+    "colors": {
+      "bg1": "#750101",
+      "bg2": "#dc7f1f",
+      "button": "#dc7f1f"
+    }
   },
   {
     "id": "kruununkohtalo",
@@ -99,7 +109,7 @@
     "resources": [
       {
         "title": "Käsiohjelma",
-        "url": "img/db/2017/kruunu_kasiohjelma.pdf"
+        "url": "images/db/2017/kruunu_kasiohjelma.pdf"
       },
       {
         "title": "Rekryvideo",
@@ -125,7 +135,13 @@
         "title": "Ensi-iltatraileri",
         "url": "https://www.youtube.com/watch?v=J4TUuiVtsV0"
       }
-    ]
+    ],
+    "colors": {
+      "bg1": "#386638",
+      "bg2": "#ebe4c7",
+      "button": "#386638",
+      "buttonColor": "#ebe4c7" 
+    }
   },
   {
     "id": "alaammuohi",
@@ -148,7 +164,7 @@
     "resources": [
       {
         "title": "Käsiohjelma",
-        "url": "img/db/2018/alaammuohi_kasiohjelma.pdf"
+        "url": "images/db/2018/alaammuohi_kasiohjelma.pdf"
       },
       {
         "title": "Promobileet",
@@ -162,7 +178,13 @@
         "title": "Ensi-iltatraileri",
         "url": "https://www.youtube.com/watch?v=HDXnIJ0wcII"
       }
-    ]
+    ],
+    "colors": {
+      "bg1": "#bd5113",
+      "bg2": "#ffffff",
+      "button": "#bd5113",
+      "buttonColor": "#ffffff" 
+    }
   },
   {
     "id": "viimeinenlohikaarmeisku",
@@ -186,7 +208,7 @@
     "resources": [
       {
         "title": "Käsiohjelma",
-        "url": "img/db/2019/viimeinen_kasiohjelma.pdf"
+        "url": "images/db/2019/viimeinen_kasiohjelma.pdf"
       },
       {
         "title": "Rekryvideo",
@@ -204,12 +226,17 @@
         "title": "Ensi-iltatraileri",
         "url": "https://www.youtube.com/watch?v=3R5D5axdvm8"
       }
-    ]
+    ],
+    "colors": {
+      "bg1": "#c4a1b7",
+      "bg2": "#c4d7c3",
+      "button": "#c4d7c3"
+    }
   },
   {
     "id": "avaruusristeily",
     "name": "Avaruusristeily 2101",
-    "year": 2020,
+    "year": 0,
     "poster": "2020_1_thumb.jpg",
     "banner": "avaruus_banner.jpg",
     "statistics": [
@@ -228,7 +255,7 @@
     "resources": [
       {
         "title": "Käsiohjelma",
-        "url": "img/db/2020/avaruus_kasiohjelma.pdf"
+        "url": "images/db/2020/avaruus_kasiohjelma.pdf"
       },
       {
         "title": "Rekryvideo",
@@ -246,12 +273,17 @@
         "title": "Ensi-iltatraileri",
         "url": "https://www.youtube.com/watch?v=3R5D5axdvm8"
       }
-    ]
+    ],
+    "colors": {
+      "bg1": "#3e2665",
+      "bg2": "#d943df",
+      "button": "#7efffd"
+    }
   },
   {
     "id": "inferno",
     "name": "Inferno - Kunnes Kadotus meidät korjaa",
-    "year": 2022,
+    "year": 0,
     "poster": "2022_1_thumb.jpg",
     "banner": "inferno_banner.jpg",
     "statistics": [
@@ -270,7 +302,7 @@
     "resources": [
       {
         "title": "Käsiohjelma",
-        "url": "img/db/2020/inferno_kasiohjelma.pdf"
+        "url": "images/db/2020/inferno_kasiohjelma.pdf"
       },
       {
         "title": "Rekryvideo",
@@ -288,7 +320,13 @@
         "title": "Ensi-iltatraileri",
         "url": "https://www.youtube.com/watch?v=3R5D5axdvm8"
       }
-    ]
+    ],
+    "colors": {
+      "bg1": "#9b2d2c",
+      "bg2": "#dbbc57",
+      "button": "#9b2d2c",
+      "buttonColor": "#dbbc57"
+    }
   }
 
 

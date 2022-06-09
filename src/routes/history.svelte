@@ -2,20 +2,12 @@
   import speksit from '../assets/speksit.json';
   import Image from '../components/Image.svelte';
   import Speksi from '../components/Speksi.svelte';
-  import jQuery from 'jquery';
+  import { scale } from 'svelte/transition';
 
-  let year;
-  let open = false;
-
-  function openSpeksi(syear) {
-    year = syear;  
-    if (!open) {
-      jQuery(".speksit-poster").css('height', '100px');
-      open = true;
-    } else {
-
-    }
-
+  let year = 2019;
+  
+function openSpeksi(syear) {
+    year = syear;
   }
 </script>
 
@@ -25,39 +17,58 @@
 
 <section class="wrap">
   <h1>Aikaisemmat HybridiSpeksit</h1>
-  <div class="speksit-container" id="spkesi">
-    {#each speksit as speksi}
-    <!-- <a href="#speksi"> -->
-      <div class="speksit-poster" on:click="{() => openSpeksi(speksi.year)}">
-        <Image src="images/db/{speksi.year}/{speksi.poster}" alt=""  />
+  <div class="row">
+    <div class="posters" id="spkesi">
+      {#each speksit as speksi}
+      {#if speksi?.year}
+      <div class="poster" on:click="{() => openSpeksi(speksi.year)}" in:scale>
+          <Image src="images/db/{speksi.year}/{speksi.poster}" alt=""  />
       </div>
-    <!-- </a> -->
-    {/each}
-  </div>
-  <div id="speksit">
-    {#each speksit as speksi}
-      {#if (speksi.year == year)}
-        <Speksi {speksi} />
       {/if}
-    {/each}
+      {/each}
+    </div>
+    <div class="speksi">
+      {#each speksit as speksi}
+        {#if (speksi.year == year)}
+          <Speksi {speksi} />
+        {/if}
+      {/each}
+    </div>
   </div>
 </section>
 
 <style lang="scss">
-  @use '../main.scss';
-  section.wrap {
-    justify-content: normal;
-  }
-  .speksit-container {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    .speksit-poster {
-      display: flex;
-      box-shadow: 5px 5px 15px 5px #000000;
-      margin: 10px; 
+@use '../main.scss';
+section.wrap {
+    min-height: 85vh;
+    .row {
+        display: flex;
+        flex-direction: row;
+        padding: 0 2rem;
+        .posters {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-content: flex-start;
+            .poster {
+                display: flex;
+                box-shadow: 5px 5px 15px 5px #000000;
+                border-radius: 10px 10px 0 0;
+                margin: 10px;
+                height: 300px;
+                > :global(img) {
+                  border-radius: 10px 10px 0 0;
+                }
+            }
+            .poster > :global(img:hover) {
+                transform: scale(1.05);
+                box-shadow: 5px 5px 15px 5px #000000;
+            }
+        }
+        .speksi {
+            width: 60%;
+        }
     }
-  }
+}
   
 </style>

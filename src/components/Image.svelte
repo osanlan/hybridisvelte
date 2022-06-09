@@ -13,11 +13,7 @@ function getDefault() {
 
 <style lang="scss">
     img {
-        width: 100%;
-        object-fit: contain;
-    }
-    img:hover {
-        transform: scale(1.05);
-        box-shadow: 5px 5px 15px 5px #000000;
+        // width: 100%;
+        // object-fit: cover;
     }
 </style>

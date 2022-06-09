@@ -19,52 +19,47 @@
     ]
   },
   {
-    "tableName": "Yhdistyksen hallitus 2021-22",
+    "tableName": "Yhdistyksen hallitus 2022-23",
     "id": "yhdistys",
     "people": [
       {
-        "title": "Puheenjohtaja",
-        "name": "Saara Koskela"
+        "title": "Puheenjohtaja, laite- ja keikkavastaava",
+        "name": "Elias Ervelä"
       },
       {
-        "title": "Varapuheenjohtaja, improkerho- ja ympäristövastaava",
-        "name": "Onni Snåre"
+        "title": "Varapuheenjohtaja, alumni-, ja tarvikevastaava",
+        "name": "Maria Nieminen"
       },
       {
         "title": "Taloudenhoitaja, rekisteri- ja tietosuojavastaava, tilavastaava",
         "name": "Oskari Läntinen"
       },
       {
-        "title": "Sihteeri, tiedottaja",
-        "name": "Laura-Tuulia Aarnio"
+        "title": "Sihteeri, tiedottaja, yhdenvertaisuus- ja hyvinvointivastaava",
+        "name": "Vilhelmiina Virtanen"
       },
       {
-        "title": "Interspeksi-, laite- ja liikuntavastaava",
-        "name": "Elias Ervelä"
+        "title": "Kulttuuri- ja liikuntavastaava, improkerhovastaava, yhdenvertaisuus- ja hyvinvointivastaava",
+        "name": "Olli Laaksoaho"
       },
       {
-        "title": "Alumni-, interspeksi- ja somevastaava",
-        "name": "Ira Tulla"
-      },
-      {
-        "title": "Kulttuuri- ja tarvikevastaava, yhdenvertaisuus- ja hyvinvointivastaava",
-        "name": "Waltteri Hatulainen"
+        "title": "Interspeksi- ja ympäristövastaava, kulttuuri- ja liikuntavastaava",
+        "name": "Essi Lahti"
       }
     ]
   },
   {
-    "tableName": "Toimihenkilöt",
-    "id": "toimihenkilot",
+    "tableName": "Yhdenvertaisuus- ja hyvinvointivastaavat",
+    "id": "yhdenvertaiset",
     "people": [
       {
-        "title": "Bändin keikkavastaava",
-        "name": "Elias Ervelä / emerve@utu.fi",
-        "email": "emerve@utu.fi"
+        "title": "Vilhelmiina Virtanen",
+        "name": "Olli Laaksoaho"
       }
     ]
   },
   {
-    "tableName": "Tuotantotiimi 2022",
+    "tableName": "Tuotantotiimi 2023",
     "id": "tuotantotiimi",
     "people": [
       {
@@ -74,66 +69,54 @@
       },
       {
         "title": "Tuottajat",
-        "name": "Otso Lauerma ja Liisa Pösö"
+        "name": "Onni Snåre ja Alisa Valtonen"
       },
       {
         "title": "Ohjaaja",
-        "name": "Anita Komulainen"
+        "name": "Eveliina Juuse"
       },
       {
         "title": "Apulaisohjaaja",
-        "name": "Olli Laaksoaho"
+        "name": "Eetu Mört"
       },
       {
         "title": "Pääkoreografi",
-        "name": "Janica Kilpi"
-      },
-      {
-        "title": "Apulaiskoreografi",
         "name": "Venla Nurmi"
       },
       {
-        "title": "Kapellimestarit",
-        "name": "Elias Ervelä ja Lotta Laine"
-      },
-      {
-        "title": "Käsikirjoitusvastaava",
-        "name": "Kimmo Pyyhtiä"
-      },
-      {
-        "title": "Sanoitusvastaava",
-        "name": "Kimmo Pyyhtiä"
-      },
-      {
-        "title": "Lavastusvastaava",
-        "name": "Elina Honkavaara ja Justus Anttila"
-      },
-      {
-        "title": "Maskeerausvastaava",
-        "name": "Laura-Tuulia Aarnio"
-      },
-      {
-        "title": "Puvustusvastaava",
-        "name": "Kaisa Hakkarainen"
-      },
-      {
-        "title": "Grafiikkavastaava",
-        "name": "Aleksei Myller"
-      },
-      {
-        "title": "Markkinointivastaava",
+        "title": "Apulaiskoreografi",
         "name": "Maisa Pikkarainen"
       },
       {
+        "title": "Kapellimestarit",
+        "name": "Henri Kartano ja Suvi Jokimaa"
+      },
+      {
+        "title": "Käsikirjoitusvastaava",
+        "name": "Markus Riskumäki"
+      },
+      {
+        "title": "Sanoitusvastaava",
+        "name": "Trine Link"
+      },
+      {
+        "title": "Maskeerausvastaava",
+        "name": "Olivia Haanmäki"
+      },
+      {
+        "title": "Puvustusvastaava",
+        "name": "Helmi Pajamäki"
+      },
+      {
         "title": "Kuvausvastaava",
-        "name": "Waltteri Hatulainen"
+        "name": "Mikko Meriö"
       },
       {
-        "title": "Virkistysvastaava",
-        "name": "Aurora Willman"
+        "title": "Huoltovastaava",
+        "name": "Otso Lauerma"
       },
       {
-        "title": "Tekniikkavastaava",
+        "title": "Nettisivuvelho",
         "name": "Oskari Läntinen"
       }
     ]
