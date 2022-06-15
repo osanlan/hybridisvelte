@@ -5,7 +5,7 @@
   const pages = [
     { label: 'Inferno', href: '/' },
     { label: 'Speksi', href: '/speksi' },
-    // { label: 'history', href: '/history' },
+    { label: 'Historia', href: '/historia' },
     { label: 'Keikat', href: '/gigs' },
     { label: 'Yhdistys', href: '/yhdistys' },
   ];

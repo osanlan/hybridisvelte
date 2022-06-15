@@ -3,12 +3,14 @@ $gold: gold;
 :global(body) {
   padding: 0px;
 }
+@import url("https://fonts.googleapis.com/css?family=Red+Hat+Display:400,400i,700&display=swap");
 
 @font-face {
   font-family: medieval;
   src: url('/fonts/morris-roman.alternate-black.ttf');
 }
 html {
+  font-size: 62.5%
   body {
     background-color: aquamarine!important;
   }
@@ -22,7 +24,7 @@ section.wrap {
   align-items: center;
   font-family: medieval;
   margin: auto 0;
-  min-height: 100vh;
+  // min-height: 100vh;
 
   h1 {
     font-size: 4rem;
