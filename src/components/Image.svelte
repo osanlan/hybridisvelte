@@ -12,8 +12,4 @@ function getDefault() {
 <img src="{src}" alt="{alt}" on:error="{() => getDefault()}"/>
 
 <style lang="scss">
-    img {
-        // width: 100%;
-        // object-fit: cover;
-    }
 </style>

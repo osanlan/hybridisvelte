@@ -235,43 +235,33 @@
   },
   {
     "id": "avaruusristeily",
-    "name": "Avaruusristeily 2101",
-    "year": 0,
+    "name": "2101: Avaruusristeily",
+    "year": 2020,
     "poster": "2020_1_thumb.jpg",
     "banner": "avaruus_banner.jpg",
     "statistics": [
-      { "Ensi-ilta": "27.3.2020" },
-      { "Näytöksiä": "9" },
-      { "Teatteri": "Manilla" },
-      { "Katsojia": "n. 1000" },
-      { "Produktiossa mukana": "107" }
+      { "Ensi-ilta": "25.3.2020/15.9.2020 " },
+      { "Näytöksiä": "9/5" },
+      { "Teatteri": "Manilla/Sigyn" },
+      { "Katsojia": "0?" },
+      { "Produktiossa mukana": "111" }
     ],
     "generateText": true,
     "text": [
-      "AVARUUS Kiinassa vallitsee kurjuus ja epätoivo. Raakalaismaiset barbaarit kylvävät tuhoa kaikkialla missä kulkevat. Kovia kokenut, mutta päättäväinen nuorukainen Kim Mo on saanut barbaareista ja Kiinan kurjuudesta tarpeekseen. Hän uskoo voivansa tuhota barbaarit ja pelastaa Kiinan löytämällä kauan kadoksissa olleet legendaariset lohikäärmesisarukset. Näillä Kung Fu -mestareilla kerrotaan olevan mystisiä taikavoimia. Riittääkö yhden nuorukaisen päättäväisyys korjaamaan menneisyyden virheet?",
-      "Historian viidennessä HybridiSpeksissä matkattiin mystisen Kung Fun maailmaan. Viimeinen lohikäärmeisku tarjoili näyttäviä taisteluita, karismaattisia hahmoja, höyryäviä kylpyjä, koskettavaa romantiikkaa ja monipuolisia musiikkinumeroita!"
+      "On vuosi 2101. Moni asia on aikojen saatossa muuttunut, mutta ihmisten risteilyinto on säilynyt ennallaan. Kuivunut Itämeri ajaa risteilynjanoisen kansan kohti viimeistä Tuntematonta — AVARUUTTA!",
+      "Uljas avaruusristeilijä S/S Sisyfos matkaa aurinkokuntaa ympäri. Aluksen matkustajien keskittyessä olennaiseen, väsymätön tekoäly SILJA huolehtii robottimiehistönsä kanssa matkan onnistumisesta.",
+      "Tähtikoodiakatemian kouluttama Tarmo Erkale valmistautuu elämänsä suurinpaan muutokseen: avioliittoon. Ensin Tarmon on kuitenkin haettava perspektiiviä elämäänsä ja koettava POLTTARIRISTEILY...",
+      "Hyvät matkustajat, bästa passagerare, tervetuloa kyytiin."
     ],
     "images": 60,
     "resources": [
       {
-        "title": "Käsiohjelma",
-        "url": "images/db/2020/avaruus_kasiohjelma.pdf"
-      },
-      {
-        "title": "Rekryvideo",
-        "url": "https://www.youtube.com/watch?v=Xlpb4TZ-OYw"
-      },
-      {
         "title": "Teaseri",
-        "url": "https://www.youtube.com/watch?v=fmCjxaopc-E"
+        "url": "https://www.youtube.com/watch?v=nQqhkyH5Tbk"
       },
       {
         "title": "Traileri",
-        "url": "https://www.youtube.com/watch?v=RRqUhaG_E9s"
-      },
-      {
-        "title": "Ensi-iltatraileri",
-        "url": "https://www.youtube.com/watch?v=3R5D5axdvm8"
+        "url": "https://www.youtube.com/watch?v=rtUkmookmh8"
       }
     ],
     "colors": {
@@ -283,42 +273,35 @@
   {
     "id": "inferno",
     "name": "Inferno - Kunnes Kadotus meidät korjaa",
-    "year": 0,
+    "year": 2022,
     "poster": "2022_1_thumb.jpg",
     "banner": "inferno_banner.jpg",
     "statistics": [
       { "Ensi-ilta": "27.3.2022" },
-      { "Näytöksiä": "9" },
+      { "Näytöksiä": "6" },
       { "Teatteri": "Manilla" },
-      { "Katsojia": "n. 1000" },
-      { "Produktiossa mukana": "107" }
+      { "Katsojia": "780" },
+      { "Produktiossa mukana": "114" }
     ],
     "generateText": true,
     "text": [
-      "INFERNO Kiinassa vallitsee kurjuus ja epätoivo. Raakalaismaiset barbaarit kylvävät tuhoa kaikkialla missä kulkevat. Kovia kokenut, mutta päättäväinen nuorukainen Kim Mo on saanut barbaareista ja Kiinan kurjuudesta tarpeekseen. Hän uskoo voivansa tuhota barbaarit ja pelastaa Kiinan löytämällä kauan kadoksissa olleet legendaariset lohikäärmesisarukset. Näillä Kung Fu -mestareilla kerrotaan olevan mystisiä taikavoimia. Riittääkö yhden nuorukaisen päättäväisyys korjaamaan menneisyyden virheet?",
-      "Historian viidennessä HybridiSpeksissä matkattiin mystisen Kung Fun maailmaan. Viimeinen lohikäärmeisku tarjoili näyttäviä taisteluita, karismaattisia hahmoja, höyryäviä kylpyjä, koskettavaa romantiikkaa ja monipuolisia musiikkinumeroita!"
+      "Fantastinen seurueemme koostuu soturista, velhosta, varkaasta ja noidasta, jotka ovat kokeneet mitä eeppisimpiä taisteluita ja tehneet mitä mahtavimpia urotöitä. He ovat pelastaneet kyliä tulvilta, tukahduttaneet tulivuoria ja kohdanneet arkkivihollisensa Paha Velho Zargothraxin. Useaan otteeseen. Mutta retkueemme ei vielä tiedäkkään että suurimmat haasteet ovat vasta edessä. Sankarimme löytävät itsensä Helvetistä ja ymmärtävät, ettei Paholaista päihitetä pelkillä miekoilla ja loitsuilla.",
+      "Minkälaisia olentoja Helvetissä oikein asustaa? Voiko kadotettua vielä pelastaa? Millainen sielu Helvetistä voi palata?",
+      "Ken speksiin käy, saa kaiken toivon heittää."
     ],
     "images": 60,
     "resources": [
       {
         "title": "Käsiohjelma",
-        "url": "images/db/2020/inferno_kasiohjelma.pdf"
-      },
-      {
-        "title": "Rekryvideo",
-        "url": "https://www.youtube.com/watch?v=Xlpb4TZ-OYw"
+        "url": "images/db/2022/inferno_kasiohjelma.pdf"
       },
       {
         "title": "Teaseri",
-        "url": "https://www.youtube.com/watch?v=fmCjxaopc-E"
-      },
-      {
-        "title": "Traileri",
-        "url": "https://www.youtube.com/watch?v=RRqUhaG_E9s"
+        "url": "https://www.youtube.com/watch?v=uOijMBuS_lQ"
       },
       {
         "title": "Ensi-iltatraileri",
-        "url": "https://www.youtube.com/watch?v=3R5D5axdvm8"
+        "url": "https://www.youtube.com/watch?v=OkcYw1cc80Y"
       }
     ],
     "colors": {

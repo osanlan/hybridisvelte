@@ -17,7 +17,7 @@
         <h2>{speksi.name}</h2>
         <ul class="stats">
             {#each speksi.statistics as stat}
-            <li><p><strong>{Object.keys(stat)}</strong>: {Object.values(stat)}</p></li>
+            <li><p><strong>{Object.keys(stat)}</strong>: {#if (speksi.year == 2020 && Object.keys(stat) =="Ensi-ilta")}<strike>{Object.values(stat)}</strike> TBA{:else}{Object.values(stat)}{/if}</p></li>
             {/each}
         </ul>
         {#each speksi.text as text}
@@ -38,12 +38,15 @@
     @use '../main.scss';
     .container {
         font-family: 'Red Hat Display', sans-serif;
-        margin-top: 10px;
+        // margin-top: 10px;
         display: flex;
         width: 100%;
         justify-content: center;
         background-image: linear-gradient(to right, var(--bg1), var(--bg2), var(--bg1));
         border-radius: 10px;
+        @media only screen and (max-width:850px) {
+                border-radius: 0;   
+            }
         .speksi {
             width: 60%;
             flex-direction: column;
@@ -55,6 +58,12 @@
             > :global(img) {
                 border-radius: 7px 7px 0 0;
                 width: 100%;
+            }
+            @media only screen and (max-width:850px) {
+                width: 90%;
+                margin: 15px;
+
+                
             }
             h2 {
                 text-transform: uppercase;
