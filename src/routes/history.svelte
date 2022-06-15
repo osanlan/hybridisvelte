@@ -50,6 +50,7 @@ section.wrap {
             padding: 0;
             .poster {
                 height: 100px!important;
+                width: 70px!important;
             }
         }
         .posters {
@@ -62,7 +63,8 @@ section.wrap {
                 display: flex;
                 box-shadow: 5px 5px 15px 5px #000000;
                 border-radius: 10px 10px 0 0;
-                margin: 10px;
+                margin: 20px;
+                margin-top: 30px;
                 height: 300px;
                 > :global(img) {
                     border-radius: 10px 10px 0 0;
@@ -76,7 +78,7 @@ section.wrap {
         .speksi {
             display: flex;
             flex-direction: column;
-            margin-top: 10px;
+            margin-top: 20px;
             margin-bottom: 20px;
             border-radius: 10px;
             width: 80%;
