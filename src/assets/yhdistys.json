@@ -49,6 +49,16 @@
     ]
   },
   {
+    "tableName": "Toimihenkilöt",
+    "id": "toimihenkilöt",
+    "people": [
+      {
+        "title": "Improkerhovastaava",
+        "name": "Otso Lauerma"
+      }
+    ]
+  },
+  {
     "tableName": "Yhdenvertaisuus- ja hyvinvointivastaavat",
     "id": "yhdenvertaiset",
     "people": [
@@ -92,6 +102,10 @@
         "name": "Henri Kartano ja Suvi Jokimaa"
       },
       {
+        "title": "Laulunohjaaja",
+        "name": "Aurora Willman"
+      },
+      {
         "title": "Käsikirjoitusvastaava",
         "name": "Markus Riskumäki"
       },
@@ -106,6 +120,14 @@
       {
         "title": "Puvustusvastaava",
         "name": "Helmi Pajamäki"
+      },
+      {
+        "title": "Grafiikkavastaava",
+        "name": "Olivia Iizuka"
+      },
+      {
+        "title": "Varainhankintavastaava",
+        "name": "Emma Kaija"
       },
       {
         "title": "Kuvausvastaava",

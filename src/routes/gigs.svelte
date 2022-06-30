@@ -1,36 +1,29 @@
 <svelte:head>
-  <title>Keikat - HybridiSpeksi</title>
+  <title>Tilaa Meidät - HybridiSpeksi</title>
 </svelte:head>
 <section class="wrap">
-  <h1>Keikat</h1>
+  <h1>Tilaa Meidät</h1>
   <div class="text">
     <h2>Bändi&shy;keikat</h2>
     <p>
-      Kuuluuko korvissasi vain tuulen huminaa? Kaipaatko musiikillista menoa
-      tapahtumaasi? HybridiSpeksin bändi, eli HSBändi, soittaa menevää
-      musiikkia Abbasta Zappaan. Voit pyytää bändiä soittamaan haluamaasi
-      musiikkia, tai antaa heille vapaat kädet suunnitella tilaisuuteesi
-      sopivaa musiikkia.
+      Kaipaatko huikeaa musiikillista menoa tapahtumaasi? HybridiSpeksin bilebändi,
+      eli HS-bändi, soittaa musiikkia Abbasta Zappaan monipuolisilla kokoonpanoilla.
+      Voit pyytää bändiä soittamaan haluamaasi musiikkia, tai antaa heille vapaat 
+      kädet suunnitella tilaisuuteesi sopivaa musiikkia.
     </p>
     <p>
-      Olemme soittaneet akateemisilla vuosijuhlilla kamarimusiikkia kuin myös
-      yökerhoilla ja syntymäpäiväjuhlilla helposti tanssittavaa
-      kevytmusiikkia. Jokainen orkesterin jäsen on päätoiminen opiskelija,
-      joten saatavuus selvitetään joka tilauksen yhteydessä erikseen.
-      Tilaamalla meidät tuet opiskelijakulttuuria ja me pääsemme tekemään sitä
-      mitä rakastamme!
+      Olemme soittaneet niin kamarimusiikkia akateemisia vuosijuhlilla kuin tanssittavaa 
+      populaarimusiikkia yökerhoissa ja syntymäpäiväjuhlissa. Jokainen orkesterin jäsen on
+      päätoiminen opiskelija, joten saatavuutemme selvitetään joka tilauksen yhteydessä erikseen.
+      Tilaamalla meidät tuet opiskelijakulttuuria ja me pääsemme tekemään sitä mitä rakastamme!
     </p>
     <p>
-      Huomioithan tapahtuman järjestäjänä, että niin ääni- ja valotekniikka
-      kuin osaava teknikko tulee olla hankittuna tapahtumapaikalle meistä
-      riippumatta. Erikoistapauksessa voimme parhaamme mukaan järjestää
-      paikalle äänitekniikkaa ja teknikon, mutta tämä vaatii yhteydenottoa
-      hyvissä ajoin.
+      Toivomme, että tapahtumapaikalle hankitaan valmiiksi äänitekniikkaa ja osaava teknikko.
+      Vaihtoehtoisesti yritämme parhaamme mukaan järjestää ne paikalle itse, mutta tästä sovitaan erikseen.
     </p>
     <p>
-      Varaathan siis meidät ajoissa - toiveen mukaan vähintään kuukautta
-      aeimmin - erityisesti mikäli haluat esittää erityistoiveta esitykseen
-      liittyen. Nähdään lavalla!
+      Ota siis yhteyttä meihin hyvissä ajoin ja sovitaan yksityiskohdista. Varmasti edullinen
+      hintalappumme räätälöidään tapauskohtaisesti. Nähdään lavalla!
     </p>
       <h3>Tiedustelut bändikeikoista:</h3>
       <a href="mailto:emerve@utu.fi">Elias Ervelä / emerve@utu.fi</a>
@@ -56,11 +49,11 @@
   <div class="text">
     <h2>Esiintyjät</h2>
     <p>
-      Kaipaako pikkujoulusi tai syntymäpäiväsi laadukasta ja persoonallista
-      esiintyjää? HybridiSpeksin näyttelijäkaarti on käytettävissäsi
-      esiintyjätarpeisiisi. Tarjoamme tapahtumiin paketteja aina muutaman
-      hengen juontokeikoista ison porukan improvisaatioteatteriin asti. Luomme
-      tapahtumaasi ohjelman tarpeesi mukaan.
+      Kaipaako pikkujouluillesi tai syntymäpäivällesi laadukasta ja persoonallista 
+      esiintyjää? HybridiSpeksin näyttelijäkaarti on käytettävissäsi aina muutaman 
+      hengen juontokeikoista isomman porukan improvisaatiospektaakkeliin asti. 
+      Voit tuoda valmiin suunnitelmasi meille toteutettavaksi tai vaihtoehtoisesti 
+      luomme tapahtumaasi ohjelman tarpeittesi mukaan.
     </p>
     <h3>
       Tiedustelut esiintyjäkeikoista:
