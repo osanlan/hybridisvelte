@@ -2,18 +2,13 @@
   <title>INFERNO - HybridiSpeksi</title>
 </svelte:head>
 <section class="wrap">
-  <!-- <div class="banner-space">
-    <img src="/images/image.svg" alt="bannerlogo" />
-    <h1>kunnes Kadotus meidät korjaa</h1>
-  </div> -->
   <div class="paral">
-    <h1>Vuoden 2022<br /> näytökset ovat <br />tältä erää naputeltu!</h1>
-    <p>Mutta ei hätää!</p>
-    <p> Produktioon 2023 on tuotantotiimin haku auki!! <br>
-    Jos kiinnostuit niin laitathan viestiä uusille tuottajillemme:</p>
-    <p>
-      <a href="mailto:tuottaja@hybridispeksi.fi">tuottaja@hybridispeksi.fi</a>
-    </p>
+    <div class="banner-text">
+      <h1>HybridiSpeksin rekry aukeaa taas pian!</h1>
+      <p>Hae mukaan tekemään yhtä Turun suurimmista spekseistä!</p>
+      <p>HybridiSpeksin rekrytilaisuus on <strong>ke 14.09.2022 klo 17 Quantumin auditoriossa</strong>, nähdään siellä!</p>
+      <p>Lisätietoja <a href="./rekry">täältä</a></p>
+    </div>
   </div>
   <section class="dudes">
     <div>
@@ -71,7 +66,7 @@
       </a>
     </div>
   </div>
-  <h1>Pääyhteistyö&shy;kumppani</h1>
+  <h1>2022 Infernon Pääyhteistyö&shy;kumppani</h1>
   <div class="logos">
     <div class="logo">
       <a href="https://axelhealth.com">
@@ -115,11 +110,18 @@
     background-size: cover;
     background-color: black !important;
     background-attachment: fixed;
+    .banner-text {
+      max-width: 60vw;
+      @media only screen and (max-width: 767px) {
+          max-width: 90vw;
+        }
+    }
     .paral {
       background-color: rgba(39, 20, 3, 0.4);
       width: 100%;
       display: flex;
       flex-direction: column;
+      align-items: center;
       p {
         color: gold;
         font-size: 2rem;

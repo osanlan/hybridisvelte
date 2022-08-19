@@ -3,7 +3,8 @@
 
   let mobile = false;
   const pages = [
-    { label: 'Inferno', href: '/' },
+    { label: 'HybridiSpeksi', href: '/' },
+    { label: 'Rekry', href: '/rekry'},
     { label: 'Speksi', href: '/speksi' },
     { label: 'Historia', href: '/historia' },
     { label: 'Keikat', href: '/gigs' },

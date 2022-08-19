@@ -9,6 +9,7 @@
   import Nav from '../components/nav.svelte';
   import Footer from '../components/footer.svelte';
   import Songs from '../routes/songs.svelte';
+  import Rekry from '../routes/rekry.svelte';
 
   export let url = '';
 </script>
@@ -22,5 +23,6 @@
   <Route path="/yhdistys"><Organization /></Route>
   <Route path="/calendar"><Calendar /></Route>
   <Route path="/biisit"><Songs /></Route>
+  <Route path="/rekry"><Rekry /></Route>
   <Footer />
 </Router>
