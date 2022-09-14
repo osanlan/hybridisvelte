@@ -10,18 +10,23 @@
         <p>HybridiSpeksi etsii jälleen monipuoliseen joukkoonsa tanssijoita, muusikoita, näyttelijöitä, maskeeraajia, puvustajia, ääniteknikoita ja vaikka mitä muuta!</p>
         <p>Tule rohkeasti mukaan tekemään yhtä Turun suurimmista spekseistä!</p>
         <p>HybridiSpeksin rekrytilaisuus on <strong>ke 14.09.2022 klo 17 Quantumin auditoriossa</strong>, nähdään siellä!</p>
+        <p>Nähdään myös etänä <a href="https://utu.zoom.us/j/69656087568">zoomissa!</a></p>
     </div>
 </section>
 <style lang="scss">
     @use '../main.scss';
     .banner-text {
-      max-width: 60vw;
-      min-height: 80vh;
-      @media only screen and (max-width: 767px) {
-          max-width: 90vw;
+        max-width: 60vw;
+        min-height: 80vh;
+        @media only screen and (max-width: 767px) {
+            max-width: 90vw;
         }
         strong {
             color: gold
+        }
+        a {
+            color: gold!important;
+            text-decoration: underline;
         }
     }
 </style>  
