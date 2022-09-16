@@ -63,8 +63,15 @@
     "id": "yhdenvertaiset",
     "people": [
       {
+        "title": "Olli Laaksoaho",
+        "name": "olli.laaksoaho ät gmail.com"
+      },
+      {
         "title": "Vilhelmiina Virtanen",
-        "name": "Olli Laaksoaho"
+        "name": "viavir ät utu.fi"
+      },
+      {
+        "link": "(linkki yhteydenottolomakkeeseen)"
       }
     ]
   },

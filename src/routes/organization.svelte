@@ -1,5 +1,6 @@
 <script>
-  import segments from '../assets/yhdistys.json';
+  import { add_styles } from 'svelte/internal';
+import segments from '../assets/yhdistys.json';
 </script>
 
 <svelte:head>
@@ -12,12 +13,27 @@
     {#each segments as segment}
       <div class="segment">
         <h3>{segment.tableName}</h3>
-        {#each segment.people as person}
+        {#if segment.id == 'yhdenvertaiset'}
+          {#each segment.people as person }
+            {#if person.link}
           <div class="row">
-            <p class="left">{person.title}{#if (segment.id != "yhdenvertaiset")}:{/if}</p>
+            <p class="center"><i>{person.link}</i></p>
+          </div>
+            {:else}
+          <div class="row">
+            <p class="left">{person.title}</p>
             <p class="right">{person.name}</p>
           </div>
-        {/each}
+            {/if}
+          {/each}
+        {:else}
+          {#each segment.people as person}
+        <div class="row">
+          <p class="left">{person.title}:</p>
+          <p class="right">{person.name}</p>
+        </div>
+          {/each}
+        {/if}
       </div>
     {/each}
   </div>
@@ -56,6 +72,11 @@
       text-align: left;
       width: 50vw;
       margin-left: 10px;
+    }
+    .center {
+      text-align: center;
+      margin-left:  auto;
+      margin-right: auto;
     }
   }
 </style>
