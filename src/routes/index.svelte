@@ -4,9 +4,8 @@
 <section class="wrap">
   <div class="paral">
     <div class="banner-text">
-      <h1>HybridiSpeksin rekry aukeaa taas pian!</h1>
+      <h1>HybridiSpeksin rekry on auki!</h1>
       <p>Hae mukaan tekemään yhtä Turun suurimmista spekseistä!</p>
-      <p>HybridiSpeksin rekrytilaisuus on <strong>ke 14.09.2022 klo 17 Quantumin auditoriossa</strong>, nähdään siellä!</p>
       <p>Lisätietoja <a href="./rekry">täältä</a></p>
     </div>
   </div>

@@ -1,11 +1,3 @@
-<script>
-import { onMount } from "svelte";
-
-let time;
-    onMount(async () => {
-        time = Date.now();
-    })  
-</script>
 <svelte:head>
   <title>Rekry - HybridiSpeksi</title>
 </svelte:head>
@@ -17,11 +9,9 @@ let time;
         <p>Speksi on interaktiivista musiikkiteatteria, jonka tekeminen on äärimmäisen hauskaa ja palkitsevaa.</p>
         <p>HybridiSpeksi etsii jälleen monipuoliseen joukkoonsa tanssijoita, muusikoita, näyttelijöitä, maskeeraajia, puvustajia, ääniteknikoita ja vaikka mitä muuta!</p>
         <p>Tule rohkeasti mukaan tekemään yhtä Turun suurimmista spekseistä!</p>
-        <p>HybridiSpeksin rekrytilaisuus on <strong>ke 14.09.2022 klo 17 Quantumin auditoriossa</strong>, nähdään siellä!</p>
-        <p>Nähdään myös etänä <a href="https://utu.zoom.us/j/69656087568">zoomissa!</a></p>
-        {#if time > 1663164000000}
-        <p><a class="link" href="https://forms.gle/k5dy8NHvKFyyXNBEA">Rekrylomake</a></p><br><br>
-        {/if}
+        <p>HybridiSpeksin rekrytilaisuus pidettiin <strong>ke 14.09.2022 klo 17 Quantumin auditoriossa</strong>.</p>
+        <p><a class="link" href="https://forms.gle/k5dy8NHvKFyyXNBEA">Rekrylomake</a> auki sunnuntai iltaan asti!</p><br><br>
+      
     </div>
 </section>
 <style lang="scss">

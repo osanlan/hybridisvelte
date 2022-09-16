@@ -5,10 +5,10 @@ $gold: gold;
 }
 @import url("https://fonts.googleapis.com/css?family=Red+Hat+Display:400,400i,700&display=swap");
 
-@font-face {
-  font-family: medieval;
-  src: url('/fonts/morris-roman.alternate-black.ttf');
-}
+// @font-face {
+//   font-family: medieval;
+//   src: url('/fonts/morris-roman.alternate-black.ttf');
+// }
 html {
   font-size: 62.5%
   body {
@@ -29,9 +29,9 @@ section.wrap {
   h1 {
     font-size: 4rem;
     text-align: center;
-    color: rgb(255, 60, 0);
-    text-decoration: underline;
-    text-shadow: rgb(201, 155, 57) 2px 2px;
+    color: rgb(201, 155, 57);
+    // text-decoration: underline;
+    // text-shadow: rgb(201, 155, 57) 2px 2px;
   }
   h2 {
     font-size: 3rem;
