@@ -3,14 +3,9 @@
 </svelte:head>
 <section class="wrap">
     <div class="banner-text">
-        <h1>Hei sinä korkea&shy;koulu&shy;kulttuurista kiinnostunut!</h1>
-        <p>Oletko aina halunnut kokeilla jotain uutta ja erilaista?</p>
-        <p>Jos vastasit kyllä yllä mainittuun kysymykseen, niin me haluamme juuri SINUT mukaan tekemään HybridiSpeksiä 2023!</p>
-        <p>Speksi on interaktiivista musiikkiteatteria, jonka tekeminen on äärimmäisen hauskaa ja palkitsevaa.</p>
-        <p>HybridiSpeksi etsii jälleen monipuoliseen joukkoonsa tanssijoita, muusikoita, näyttelijöitä, maskeeraajia, puvustajia, ääniteknikoita ja vaikka mitä muuta!</p>
-        <p>Tule rohkeasti mukaan tekemään yhtä Turun suurimmista spekseistä!</p>
-        <p>HybridiSpeksin rekrytilaisuus pidettiin <strong>ke 14.09.2022 klo 17 Quantumin auditoriossa</strong>.</p>
-        <p><a class="link" href="https://forms.gle/k5dy8NHvKFyyXNBEA">Rekrylomake</a> auki sunnuntai iltaan asti!</p><br><br>
+        <h1>HybridiSpeksin rekry on sulkeutunut syksyn osalta.</h1>
+        <p>Jos sinulle jäi kysyttävää rekryyn tai yleisesti speksiin liittyen, ota yhteyttä tuottajiimme.</p>
+        <!-- <p><a class="link" href="https://forms.gle/k5dy8NHvKFyyXNBEA">Rekrylomake</a> auki sunnuntai iltaan asti!</p><br><br> -->
       
     </div>
 </section>

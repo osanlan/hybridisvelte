@@ -4,9 +4,7 @@
 <section class="wrap">
   <div class="paral">
     <div class="banner-text">
-      <h1>HybridiSpeksin rekry on auki!</h1>
-      <p>Hae mukaan tekemään yhtä Turun suurimmista spekseistä!</p>
-      <p>Lisätietoja <a href="./rekry">täältä</a></p>
+      <p>HybridiSpeksi on Turun yliopiston luonnontieteiden ja tekniikan opiskelijoiden vuosittain toteuttama teatteriproduktio. Ensimmäinen HybridiSpeksi nähtiin keväällä 2015 Barker-teatterilla.</p>
     </div>
   </div>
   <section class="dudes">
