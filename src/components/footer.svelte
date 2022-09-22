@@ -59,7 +59,7 @@
         />
       </svg></a
     >
-    <a href="/calendar" aria-label="Kalenteri"
+    <a href="/kalenteri" aria-label="Kalenteri"
       ><svg
         class="icon icon__calendar"
         height="100"
