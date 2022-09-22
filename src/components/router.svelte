@@ -20,9 +20,9 @@
   <Route path="/"><Home /></Route>
   <Route path="/speksi"><About /></Route>
   <Route path="/historia" component={History} />
-  <Route path="/gigs"><Gigs /></Route>
+  <Route path="/keikat"><Gigs /></Route>
   <Route path="/yhdistys"><Organization /></Route>
-  <Route path="/calendar"><Calendar /></Route>
+  <Route path="/kalenteri"><Calendar /></Route>
   <Route path="/biisit"><Songs /></Route>
   <Route path="/rekry"><Rekry /></Route>
   <Route path="/alumni"><Alumni /></Route>

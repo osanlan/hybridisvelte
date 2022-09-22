@@ -7,7 +7,7 @@
     { label: 'Rekry', href: '/rekry'},
     { label: 'Speksi', href: '/speksi' },
     { label: 'Historia', href: '/historia' },
-    { label: 'Keikat', href: '/gigs' },
+    { label: 'Keikat', href: '/keikat' },
     { label: 'Yhdistys', href: '/yhdistys' },
   ];
   const handleMobileIconClick = () => (mobile = !mobile);
