@@ -17,7 +17,9 @@ import segments from '../assets/yhdistys.json';
           {#each segment.people as person }
             {#if person.link}
           <div class="row">
-            <p class="center"><i>{person.link}</i></p>
+            <p class="center">Voit antaa meille palautetta yhdistyksen tai produktion toiminnasta, 
+              ilmoittaa kokemastasi häirinnästä tai kertoa mistä vain mieltäsi painavasta asiasta: 
+              <a href="{person.link}">linkki yhteydenottolomakkeeseen</a></p>
           </div>
             {:else}
           <div class="row">
