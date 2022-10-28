@@ -6,7 +6,6 @@ public_folder: "/images/uploads"
 collections:
   - name: "assests"
     label: "Tiedot"
-    folder: "src/assets"
     files:
       - label: "Toimijat"
         name: "toimijat"
@@ -26,3 +25,10 @@ collections:
             fields: 
               - {label: "Who", name: "who", widget: "string", default: "javk"}
               - {label: "What", name: "what", widget: "string", default: "pilot"}
+        - label: "Bogus"
+          name: "bogus"
+          file: "src/assets/bogus.json"
+          fields: 
+            - label: "Foo"
+              name: "bar"
+              widget: "string" 
