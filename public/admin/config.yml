@@ -17,12 +17,12 @@ collections:
             widget: "list"
             summary: '{{fields.who}} - {{fields.what}}'
             fields: 
-              - {label: "Who", name: "who", widget: "string"}
-              - {label: "What", name: "what", widget: "string"}
+              - {label: "Who", name: "who", widget: "string", default: "bob"}
+              - {label: "What", name: "what", widget: "string", default: "janitor"}
           - label: "Tuottis"
             name: "tuottis"
             widget: "list"
             summary: '{{fields.who}} - {{fields.what}}'
             fields: 
-              - {label: "Who", name: "who", widget: "string"}
-              - {label: "What", name: "what", widget: "string"}
+              - {label: "Who", name: "who", widget: "string", default: "javk"}
+              - {label: "What", name: "what", widget: "string", default: "pilot"}
