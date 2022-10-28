@@ -19,8 +19,8 @@ collections:
             fields: 
               - {label: "Who", name: "who", widget: "string"}
               - {label: "What", name: "what", widget: "string"}
-          - label: "Hallitus"
-            name: "hallitus"
+          - label: "Tuottis"
+            name: "tuottis"
             widget: "list"
             summary: '{{fields.who}} - {{fields.what}}'
             fields: 
