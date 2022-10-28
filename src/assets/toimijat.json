@@ -17,6 +17,23 @@
     {
       "who": "Henry",
       "what": "Lordi"
+    },
+    {
+      "who": "juhani",
+      "what": "Juuhananpoika"
+    }
+  ],
+  "yhdenvertaiset": [
+    {
+      "tyyppi": "Johanna - email",
+      "tyyppi2": "Joakim - email",
+      "info": "tästä linkki formiin"
+    }
+  ],
+  "toimihenkilot": [
+    {
+      "kuka": "olkipoika",
+      "pesti": "toimari"
     }
   ]
 }
