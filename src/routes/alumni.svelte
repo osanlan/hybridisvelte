@@ -1,1 +1,1 @@
-Spoileri! Älä kato vielä! Mee pois jooko!
+Spoileri! Älä kato (devel) vielä! Mee pois jooko!
