@@ -25,10 +25,10 @@ collections:
             fields: 
               - {label: "Who", name: "who", widget: "string", default: "javk"}
               - {label: "What", name: "what", widget: "string", default: "pilot"}
-        - label: "Bogus"
-          name: "bogus"
-          file: "src/assets/bogus.json"
-          fields: 
-            - label: "Foo"
-              name: "bar"
-              widget: "string" 
+      - label: "Bogus"
+        name: "bogus"
+        file: "src/assets/bogus.json"
+        fields: 
+          - label: "Foo"
+            name: "bar"
+            widget: "string" 
