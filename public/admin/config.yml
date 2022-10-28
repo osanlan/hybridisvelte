@@ -7,7 +7,7 @@ collections:
   - name: "org_data"
     label: "Toimijat"
     folder: "_assets/data"
-    create: false
+    create: true
     fields:
       - label: "Hallitus"
         name: "hallitus"
