@@ -12,12 +12,13 @@ collections:
       - label: "Hallitus"
         name: "hallitus"
         widget: "list"
+        summary: '{{fields.who}} - {{fields.what}}'
         fields: 
           - {label: "Who", name: "who", widget: "string"}
           - {label: "What", name: "what", widget: "string"}
-      - label: "Tuottis"
-        name: "tuottis"
-        widget: "list"
-        fields: 
-          - {label: "Who", name: "who", widget: "string"}
-          - {label: "What", name: "what", widget: "string"}
+      # - label: "Tuottis"
+      #   name: "tuottis"
+      #   widget: "list"
+      #   fields: 
+      #     - {label: "Who", name: "who", widget: "string"}
+      #     - {label: "What", name: "what", widget: "string"}
