@@ -5,10 +5,19 @@ media_folder: "public/images/uploads"
 public_folder: "/images/uploads"
 collections:
   - name: "org_data"
-    label: "Tiedot"
+    label: "Toimijat"
     folder: "_assets/data"
     create: false
     fields:
-      - {label: "Who", name: "who", widget: "string"}
-      - {label: "What", name: "what", widget: "string"}
-      - {label: "Group", name: "group", widget: "select", options: ["Hallitus", "Tuottis"]}
+      - label: "Hallitus"
+        name: "hallitus"
+        widget: "list"
+        fields: 
+          - {label: "Who", name: "who", widget: "string"}
+          - {label: "What", name: "what", widget: "string"}
+      - label: "Tuottis"
+        name: "tuottis"
+        widget: "list"
+        fields: 
+          - {label: "Who", name: "who", widget: "string"}
+          - {label: "What", name: "what", widget: "string"}
