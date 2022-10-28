@@ -16,19 +16,26 @@ collections:
             widget: "list"
             summary: '{{fields.who}} - {{fields.what}}'
             fields: 
-              - {label: "Who", name: "who", widget: "string", default: "bob"}
-              - {label: "What", name: "what", widget: "string", default: "janitor"}
-          - label: "Tuottis"
+              - {label: "Kuka", name: "kuka", widget: "string", default: "bob"}
+              - {label: "Pesti", name: "pesti", widget: "string"}
+          - label: "Yhdenvertaisuus- ja hyvinvointivastaavat"
+            name: "yhdenvertaiset"
+            widget: "list"
+            fields: 
+              - {label: "Tyyppi", name: "tyyppi"}
+              - {label: "Tyyppi2", name: "tyyppi2"}
+              - {label: "Info", name: "info"}
+          - label: "Toimihenkilöt"
+            name: "toimihenkilot"
+            widget: "list"
+            summary: '{{fields.who}} - {{fields.what}}'
+            fields: 
+              - {label: "Kuka", name: "kuka", widget: "string", default: "bob"}
+              - {label: "Pesti", name: "pesti", widget: "string"}
+          - label: "Tuottantotiimi"
             name: "tuottis"
             widget: "list"
             summary: '{{fields.who}} - {{fields.what}}'
             fields: 
               - {label: "Who", name: "who", widget: "string", default: "javk"}
               - {label: "What", name: "what", widget: "string", default: "pilot"}
-      - label: "Bogus"
-        name: "bogus"
-        file: "src/assets/bogus.json"
-        fields: 
-          - label: "Foo"
-            name: "bar"
-            widget: "string" 
