@@ -1,12 +1,30 @@
 <script>
   import { add_styles } from 'svelte/internal';
 import segments from '../assets/yhdistys.json';
+import t from '../assets/toimijat.json';
 </script>
 
 <svelte:head>
   <title>Yhdistys - HybridiSpeksit</title>
 </svelte:head>
-
+hallitus
+{#each t.hallitus as tt}
+<p>{tt.who}</p>
+{/each}
+toimarit
+{#each t.toimihenkilot as tt}
+<p>{tt.kuka}</p>
+{/each}
+yhdenvertaiset
+{#each t.yhdenvertaiset as tt}
+<p>{tt.tyyppi}</p>
+<p>{tt.tyyppi2}</p>
+<p>{tt.info}</p>
+{/each}
+tuottis
+{#each t.tuottis as tt}
+<p>{tt.who}</p>
+{/each}
 <section class="wrap">
   <div class="text">
     <h1>Yhdistys ja toimihenkilöt</h1>
