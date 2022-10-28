@@ -1,0 +1,18 @@
+{
+  "hallitus": [
+    {
+      "who": "Matti",
+      "what": "Jokapoika"
+    },
+    {
+      "who": "Juho",
+      "what": "Peruna"
+    }
+  ],
+  "tuottis": [
+    {
+      "who": "Henry",
+      "what": "Lordi"
+    }
+  ]
+}
