@@ -2,11 +2,15 @@
   "hallitus": [
     {
       "who": "Matti",
-      "what": "Jokapoika"
+      "what": "Jokapoika",
+      "kuka": "Oskari",
+      "pesti": "Talho"
     },
     {
       "who": "Juho",
-      "what": "Peruna"
+      "what": "Peruna",
+      "kuka": "Perttu",
+      "pesti": "pj"
     }
   ],
   "tuottis": [
