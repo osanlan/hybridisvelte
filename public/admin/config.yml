@@ -4,21 +4,25 @@ backend:
 media_folder: "public/images/uploads"
 public_folder: "/images/uploads"
 collections:
-  - name: "org_data"
-    label: "Toimijat"
-    folder: "_assets/data"
-    create: true
-    fields:
-      - label: "Hallitus"
-        name: "hallitus"
-        widget: "list"
-        summary: '{{fields.who}} - {{fields.what}}'
-        fields: 
-          - {label: "Who", name: "who", widget: "string"}
-          - {label: "What", name: "what", widget: "string"}
-      # - label: "Tuottis"
-      #   name: "tuottis"
-      #   widget: "list"
-      #   fields: 
-      #     - {label: "Who", name: "who", widget: "string"}
-      #     - {label: "What", name: "what", widget: "string"}
+  - name: "assests"
+    label: "Tiedot"
+    folder: "src/assets"
+    files:
+      - label: "Toimijat"
+        name: "toimijat"
+        file: "src/assets/toimijat.json"
+        fields:
+          - label: "Hallitus"
+            name: "hallitus"
+            widget: "list"
+            summary: '{{fields.who}} - {{fields.what}}'
+            fields: 
+              - {label: "Who", name: "who", widget: "string"}
+              - {label: "What", name: "what", widget: "string"}
+          - label: "Hallitus"
+            name: "hallitus"
+            widget: "list"
+            summary: '{{fields.who}} - {{fields.what}}'
+            fields: 
+              - {label: "Who", name: "who", widget: "string"}
+              - {label: "What", name: "what", widget: "string"}
