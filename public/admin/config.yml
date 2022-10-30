@@ -11,31 +11,38 @@ collections:
         name: "toimijat"
         file: "src/assets/toimijat.json"
         fields:
+          - label: "Yhteystiedot"
+            name: "yhteystiedot"
+            widget: "list"
+            summary: '{{fields.name}}'
+            fields: 
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Value", name: "value", widget: "string"}
           - label: "Hallitus"
             name: "hallitus"
             widget: "list"
-            summary: '{{fields.who}} - {{fields.what}}'
+            summary: '{{fields.name}} - {{fields.title}}'
             fields: 
-              - {label: "Kuka", name: "kuka", widget: "string", default: "bob"}
-              - {label: "Pesti", name: "pesti", widget: "string"}
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
           - label: "Yhdenvertaisuus- ja hyvinvointivastaavat"
             name: "yhdenvertaiset"
             widget: "list"
             fields: 
-              - {label: "Tyyppi", name: "tyyppi"}
-              - {label: "Tyyppi2", name: "tyyppi2"}
+              - {label: "Name", name: "name"}
+              - {label: "Name2", name: "name2"}
               - {label: "Info", name: "info"}
           - label: "Toimihenkilöt"
             name: "toimihenkilot"
             widget: "list"
-            summary: '{{fields.who}} - {{fields.what}}'
+            summary: '{{fields.name}} - {{fields.title}}'
             fields: 
-              - {label: "Kuka", name: "kuka", widget: "string", default: "bob"}
-              - {label: "Pesti", name: "pesti", widget: "string"}
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
           - label: "Tuottantotiimi"
             name: "tuottis"
             widget: "list"
-            summary: '{{fields.who}} - {{fields.what}}'
+            summary: '{{fields.name}} - {{fields.title}}'
             fields: 
-              - {label: "Who", name: "who", widget: "string", default: "javk"}
-              - {label: "What", name: "what", widget: "string", default: "pilot"}
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}

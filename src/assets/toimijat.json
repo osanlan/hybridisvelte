@@ -1,39 +1,138 @@
 {
-  "hallitus": [
-    {
-      "who": "Matti",
-      "what": "Jokapoika",
-      "kuka": "Oskari",
-      "pesti": "Talho"
-    },
-    {
-      "who": "Juho",
-      "what": "Peruna",
-      "kuka": "Perttu",
-      "pesti": "pj"
-    }
-  ],
-  "tuottis": [
-    {
-      "who": "Henry",
-      "what": "Lordi"
-    },
-    {
-      "who": "juhani",
-      "what": "Juuhananpoika"
-    }
-  ],
-  "yhdenvertaiset": [
-    {
-      "tyyppi": "Johanna - email",
-      "tyyppi2": "Joakim - email",
-      "info": "tästä linkki formiin"
-    }
-  ],
-  "toimihenkilot": [
-    {
-      "kuka": "olkipoika",
-      "pesti": "toimari"
-    }
-  ]
+    "yhteystiedot": [
+        {
+            "name": "Email",
+            "value": "hallitus@hybridispeksi.fi"
+        },
+        {
+            "name": "Tilinumero",
+            "value": "FI64 5711 1320 1361 76"
+        },
+        {
+            "name": "Y-tunnus",
+            "value": "2732017-8"
+        }
+    ],
+    "hallitus": [
+        {
+            "title": "Puheenjohtaja, laite- ja keikkavastaava",
+            "name": "Elias Ervelä"
+        },
+        {
+            "title": "Varapuheenjohtaja, alumni-, ja tarvikevastaava",
+            "name": "Maria Nieminen"
+        },
+        {
+            "title": "Taloudenhoitaja, rekisteri- ja tietosuojavastaava, tilavastaava",
+            "name": "Oskari Läntinen"
+        },
+        {
+            "title": "Sihteeri, tiedottaja, yhdenvertaisuus- ja hyvinvointivastaava",
+            "name": "Vilhelmiina Virtanen"
+        },
+        {
+            "title": "Kulttuuri- ja liikuntavastaava, improkerhovastaava, yhdenvertaisuus- ja hyvinvointivastaava",
+            "name": "Olli Laaksoaho"
+        },
+        {
+            "title": "Interspeksi- ja ympäristövastaava, kulttuuri- ja liikuntavastaava",
+            "name": "Essi Lahti"
+        }
+    ],
+    "tuottis": [
+        {
+            "name": "Tuotannon email",
+            "title": "tuottaja@hybridispeksi.fi"
+        },
+        {
+            "title": "Tuottajat",
+            "name": "Onni Snåre ja Alisa Valtonen"
+        },
+        {
+            "title": "Ohjaaja",
+            "name": "Eveliina Juuse"
+        },
+        {
+            "title": "Apulaisohjaaja",
+            "name": "Eetu Mört"
+        },
+        {
+            "title": "Pääkoreografi",
+            "name": "Venla Nurmi"
+        },
+        {
+            "title": "Apulaiskoreografi",
+            "name": "Maisa Pikkarainen"
+        },
+        {
+            "title": "Kapellimestarit",
+            "name": "Henri Kartano ja Suvi Jokimaa"
+        },
+        {
+            "title": "Laulunohjaaja",
+            "name": "Aurora Willman"
+        },
+        {
+            "title": "Käsikirjoitusvastaava",
+            "name": "Markus Riskumäki"
+        },
+        {
+            "title": "Sanoitusvastaava",
+            "name": "Trine Link"
+        },
+        {
+            "title": "Lavastusvastaavat",
+            "name": "Elina Honkavaara ja Tiina Seppänen"
+        },
+        {
+            "title": "Maskeerausvastaava",
+            "name": "Olivia Haanmäki"
+        },
+        {
+            "title": "Puvustusvastaava",
+            "name": "Helmi Pajamäki"
+        },
+        {
+            "title": "Tekniikkavastaava",
+            "name": "Miska Routakorpi"
+        },
+        {
+            "title": "Grafiikkavastaava",
+            "name": "Olivia Iizuka"
+        },
+        {
+            "title": "Markkinointivastaava",
+            "name": "Vilhelmiina Virtanen"
+        },
+        {
+            "title": "Varainhankintavastaava",
+            "name": "Emma Kaija"
+        },
+        {
+            "title": "Kuvausvastaava",
+            "name": "Mikko Meriö"
+        },
+        {
+            "title": "Huoltovastaava",
+            "name": "Otso Lauerma"
+        },
+        {
+            "title": "Nettisivuvelho",
+            "name": "Oskari Läntinen"
+        }
+    ],
+    "yhdenvertaiset": [
+        {
+            "name": "Olli Laaksoaho - olli.laaksoaho ät gmail.com",
+            "name2": "Vilhelmiina Virtanen - viavir ät utu.fi",
+            "info": "Voit antaa meille palautetta yhdistyksen tai produktion toiminnasta, ilmoittaa kokemastasi häirinnästä tai kertoa mistä vain mieltäsi painavasta asiasta.",
+            "link": "https://docs.google.com/forms/d/e/1FAIpQLSdoCh4C0R-ltz1RkoSw49t_OBdXRoONCHrLtcKoWp-qB9Exzw/viewform"
+        }
+    ],
+    "toimihenkilot": [
+        {
+            "name": "Otso Lauerma",
+            "title": "Improkerhovastaava"
+        }
+    ]
 }

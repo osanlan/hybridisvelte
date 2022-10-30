@@ -1,61 +1,60 @@
 <script>
-  import { add_styles } from 'svelte/internal';
-import segments from '../assets/yhdistys.json';
-import t from '../assets/toimijat.json';
+import data from '../assets/toimijat.json';
 </script>
 
 <svelte:head>
   <title>Yhdistys - HybridiSpeksit</title>
 </svelte:head>
-hallitus
-{#each t.hallitus as tt}
-<p>{tt.who}</p>
-{/each}
-toimarit
-{#each t.toimihenkilot as tt}
-<p>{tt.kuka}</p>
-{/each}
-yhdenvertaiset
-{#each t.yhdenvertaiset as tt}
-<p>{tt.tyyppi}</p>
-<p>{tt.tyyppi2}</p>
-<p>{tt.info}</p>
-{/each}
-tuottis
-{#each t.tuottis as tt}
-<p>{tt.who}</p>
-{/each}
+
 <section class="wrap">
-  <div class="text">
-    <h1>Yhdistys ja toimihenkilöt</h1>
-    {#each segments as segment}
-      <div class="segment">
-        <h3>{segment.tableName}</h3>
-        {#if segment.id == 'yhdenvertaiset'}
-          {#each segment.people as person }
-            {#if person.link}
-          <div class="row">
-            <p class="center">Voit antaa meille palautetta yhdistyksen tai produktion toiminnasta, 
-              ilmoittaa kokemastasi häirinnästä tai kertoa mistä vain mieltäsi painavasta asiasta: 
-              <a href="{person.link}">linkki yhteydenottolomakkeeseen</a></p>
-          </div>
-            {:else}
-          <div class="row">
-            <p class="left">{person.title}</p>
-            <p class="right">{person.name}</p>
-          </div>
-            {/if}
-          {/each}
-        {:else}
-          {#each segment.people as person}
-        <div class="row">
-          <p class="left">{person.title}:</p>
-          <p class="right">{person.name}</p>
+    <div class="text">
+        <h1>Yhdistys ja toimihenkilöt</h1>
+        <div class="segment">
+            <h3>Yhteystiedot</h3>
+            {#each data.yhteystiedot as row}
+              <div class="row">
+                <p class="left">{row.name}</p>
+                <p class="right">{row.value}</p>
+              </div>
+            {/each}
         </div>
-          {/each}
-        {/if}
-      </div>
-    {/each}
+        <div class="segment">
+            <h3>HybridiSpeksi ry hallitus</h3>
+            {#each data.hallitus as person}
+            <div class="row">
+                <p class="left">{person.name}</p>
+                <p class="right">{person.title}</p>
+            </div>
+            {/each}
+        </div>
+        <div class="segment">
+          <h3>Yhdenvertaisuus- ja hyvinvointivastaavat</h3>
+          <div class="column">
+          {#each data.yhdenvertaiset as person}
+            <p>{person.name}</p>
+            <p>{person.name2}</p>
+            <p>{person.info} <a href="{personalbar.link}">Linkki yhteydenottolomakkeeseen</a></p>
+            {/each}
+          </div>
+        </div>
+        <div class="segment">
+            <h3>Toimihenkilot</h3>
+            {#each data.toimihenkilot as row}
+            <div class="row">
+                <p class="left">{row.name}</p>
+                <p class="right">{row.title}</p>
+            </div>
+            {/each}
+        </div>
+        <div class="segment">
+            <h3>Tuotantotiimi 2023</h3>
+            {#each data.tuottis as person}
+            <div class="row">
+                <p class="left">{person.name}</p>
+                <p class="right">{person.title}</p>
+            </div>
+            {/each}
+        </div>
   </div>
   <div id="rules" class="flex flex_column">
     <a href="../assets/HybridiSpeksi ry säännöt.pdf">Yhdistyksen säännöt</a>
@@ -68,6 +67,7 @@ tuottis
   @use '../main.scss';
 
   #rules {
+    margin-top: 50px;
     a {
       padding: 10px;
     }
