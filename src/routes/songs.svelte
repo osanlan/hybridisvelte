@@ -44,7 +44,11 @@
         {#if (line.length < 1)}
         <div class="verse"></div>
         {/if}
+        {#if (line[0] == '#')}
+        <p><em>{line.substring(1)}</em></p>
+        {:else}
         <p>{line}</p>
+        {/if}
       {/each}
     </div>
   {/if}
